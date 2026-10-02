@@ -1,0 +1,52 @@
+/* 神雕支线 · 已知线索手札（Claude 2026-09-28）。只作用于 .condor-clues 本组件。
+   放在江湖手札「此行记事」里，默认收合；宣纸底、焦墨字、朱砂小印，与 190 墨韵纸本同一套颜色。
+   像素字只用整格：正文 16px 正字，注脚 12px 细字。根节点不设 display，好让 hidden 属性生效。
+   聚焦框沿用 style.css 190b 对抽屉 summary 的泥金框。 */
+.condor-clues {
+  margin: 12px 0 10px;
+  border: 1px solid var(--mo-plate, #b09a6e);
+  background: var(--mo-paper-light, #f7eed8);
+  box-shadow: inset 0 0 0 1px #fffaf0;
+  color: var(--mo-ink, #231d16);
+}
+.condor-clues > summary {
+  display: flex; align-items: center; gap: 8px;
+  min-height: 44px; padding: 0 12px; box-sizing: border-box;
+  cursor: pointer; list-style: none;
+  font: 16px/20px var(--font-game, serif); letter-spacing: 2px;
+}
+.condor-clues > summary::-webkit-details-marker { display: none; }
+.condor-clues > summary::after {
+  content: ""; margin-left: auto; width: 0; height: 0;
+  border-left: 6px solid var(--mo-ink-faint, #6b5d4b); border-top: 4px solid transparent; border-bottom: 4px solid transparent;
+}
+.condor-clues[open] > summary::after { transform: rotate(90deg); }
+.condor-clues .condor-seal {
+  display: inline-flex; align-items: center; justify-content: center; width: 20px; height: 20px; flex: none;
+  background: var(--mo-cinnabar, #a2382a); color: var(--mo-seal-text, #f6e7cf);
+  font: 12px/1 var(--font-small, serif); letter-spacing: 0;
+}
+.condor-clues .condor-count { color: var(--mo-ink-faint, #6b5d4b); font: 12px/16px var(--font-small, serif); letter-spacing: 0; }
+.condor-clues ol { margin: 0; padding: 4px 12px 12px; list-style: none; display: flex; flex-direction: column; gap: 10px; }
+.condor-clues li { display: grid; grid-template-columns: 12px minmax(0, 1fr); gap: 4px 8px; }
+.condor-clues li::before {
+  content: ""; width: 6px; height: 6px; margin-top: 9px; transform: rotate(45deg); background: var(--mo-cinnabar, #a2382a);
+}
+.condor-clues li[data-done="true"]::before { background: transparent; box-shadow: inset 0 0 0 1px var(--mo-ink-faint, #6b5d4b); }
+.condor-clues .clue-title { font: 16px/24px var(--font-game, serif); color: var(--mo-ink, #231d16); }
+.condor-clues .clue-text { grid-column: 2; margin: 0; font: 16px/24px var(--font-game, serif); color: var(--mo-ink-soft, #4a3f31); }
+.condor-clues .clue-source { grid-column: 2; font: 12px/16px var(--font-small, serif); color: var(--mo-ink-faint, #6b5d4b); }
+/* 已了结的一条：只留题目一行，淡墨。 */
+.condor-clues li[data-done="true"] .clue-title { color: var(--mo-ink-faint, #6b5d4b); }
+.condor-clues li[data-done="true"] :is(.clue-text, .clue-source) { display: none; }
+
+/* 手机横屏：更紧凑，正文降到 12px 细字两行内。 */
+@media (orientation: landscape) and (max-height: 600px) {
+  .condor-clues { margin-top: 8px; }
+  .condor-clues > summary { font: 12px/16px var(--font-small, serif); letter-spacing: 1px; }
+  .condor-clues ol { padding: 2px 10px 8px; gap: 6px; }
+  .condor-clues .clue-title { font: 12px/16px var(--font-small, serif); color: var(--mo-ink, #231d16); }
+  .condor-clues .clue-text { font: 12px/16px var(--font-small, serif); }
+  .condor-clues .clue-source { display: none; }
+  .condor-clues li::before { margin-top: 5px; }
+}

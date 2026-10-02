@@ -1,0 +1,25 @@
+/* 品第与朱批 157：颜色只在这里取值（style.css 与 martial-catalog.css 都 @import 本文件）。
+   品第出现的面板（行囊、人物页、武学图鉴）全是浅纸底，项目没有这些面板的暗色主题。
+   浅纸底上「白」即墨色；「灰」＝对比度明显低于寻常、饱和度更低的淡灰，未见与待核共用。
+   各色在八种纸色底上的对比度由 tests/grade157-display.test.mjs 计算校验。 */
+:root {
+  --grade-juexue: #6f4900;      /* 绝学／神兵 · 暖金 */
+  --grade-shangcheng: #6b3fa0;  /* 上乘／名器 · 偏冷的紫 */
+  --grade-mingjia: #1b578a;     /* 名家／精制 · 中性蓝 */
+  --grade-xunchang: #33372c;    /* 寻常 · 纸上墨色 */
+  --grade-unseen: #6e6b62;      /* 未见／待核 · 低饱和淡灰 */
+  --grade-cost: #9b2f1b;        /* 朱批 */
+}
+.grade-name[data-grade="juexue"] { color:var(--grade-juexue) !important; }
+.grade-name[data-grade="shangcheng"] { color:var(--grade-shangcheng) !important; }
+.grade-name[data-grade="mingjia"] { color:var(--grade-mingjia) !important; }
+.grade-name[data-grade="xunchang"] { color:var(--grade-xunchang) !important; }
+.grade-name[data-grade="unseen"] { color:var(--grade-unseen) !important; }
+/* 天书（十四部小说）不进金紫蓝白：名字保持原色，只加一枚小标记。 */
+.grade-badge { display:inline-block; margin:2px 4px 0 0; padding:0 5px; border:1px solid currentColor; border-radius:2px;
+  font:11px/16px var(--font-small, inherit); letter-spacing:.05em; color:var(--grade-unseen); vertical-align:middle; }
+.grade-costs { margin:8px 0; padding-left:8px; border-left:2px solid var(--grade-cost); }
+.grade-cost { margin:3px 0; color:var(--grade-cost); font-size:14px; line-height:1.6; }
+.grade-cost small { display:block; color:var(--grade-unseen); font:11px/1.4 var(--font-small, inherit); }
+.grade-legend { font-size:12px; line-height:1.7; color:var(--grade-unseen); margin:4px 0 8px; }
+.grade-legend b { font-weight:400; }

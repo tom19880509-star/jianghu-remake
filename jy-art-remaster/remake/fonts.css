@@ -1,0 +1,23 @@
+/* Complete open font; provenance and embedding exception in assets/fonts/. */
+@font-face {
+  font-family: "Jianghu Song";
+  src: url("assets/fonts/wqy-song-16.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  /* Upstream uses 1800 units/em and 100 units per bitmap cell. */
+  size-adjust: 112.5%;
+}
+@font-face {
+  font-family: "Jianghu Song Small";
+  src: url("assets/fonts/wqy-song-12.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  /* 1500 units/em; 12 CSS pixels must retain twelve full bitmap cells. */
+  size-adjust: 125%;
+}
+:root {
+  --font-game: "Jianghu Song", "Songti SC", "STSong", serif;
+  --font-small: "Jianghu Song Small", "Songti SC", "STSong", serif;
+}

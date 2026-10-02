@@ -1,0 +1,16 @@
+{
+  "name": "jy-remake",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "python3 launch.py 5409 --no-open",
+    "test": "node tests/door-access.test.mjs"
+  },
+  "dependencies": {
+    "fengari": "0.1.5",
+    "esbuild": "0.25.9"
+  },
+  "license": "Apache-2.0",
+  "author": "Tom (tom19880509-star)"
+}

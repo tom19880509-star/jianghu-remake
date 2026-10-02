@@ -1,0 +1,8 @@
+Isometric ground tiles — rubberduck
+Source: https://opengameart.org/content/isometric-ground-tiles
+License: CC0 1.0, as published on the author asset page.
+https://creativecommons.org/publicdomain/zero/1.0/
+Native source: ground_tiles_sheets.zip / grass_medium_128x64.png
+File is copied unchanged. Source archive and download record retained under references/community/ground-tiles.
+Runtime adaptation: original game grass mask and opacity; native diamond sampling, warm palette blend.
+Current scope: default grass rendering on the original home map (scene70), Mingjiao hall (scene12, matching battle map3), and Wudu (scene37, battle map1 only when entered from scene37). Wudu retains source contact shadows. ground-preview=original retains the prior grass look for comparison.

@@ -1,10 +1,16 @@
-Jianghu Remake / 江湖重绘 — original independent modules
+Jianghu Remake / 江湖重绘 — original remake code and artwork
 Copyright 2026 Tom (tom19880509-star).
 Project created, designed and directed by Tom.
 https://github.com/tom19880509-star
 
 Development tooling assistance: OpenAI Codex and Anthropic Claude.
-This attribution applies to the original independent modules in this package.
+This attribution applies to the original remake code and artwork in this package.
 It does not claim authorship or ownership of Jin Yong novels, the original
 Heroes of Jin Yong game, or any third-party engines, scripts, art or music.
 Licensed under Apache License 2.0; see LICENSE.
+
+Original Lua remake: 游泳的鱼, from ZhanruiLiang/jinyong-legend.
+Original author notice: 版权所无，敬请复制；您可以随意使用代码。
+Original scripts, data and MIDI remain credited to their original sources.
+Third-party fonts, runtimes, soundfonts and materials retain their own notices
+and licenses; see THIRD_PARTY.md and bundled resource notice files.

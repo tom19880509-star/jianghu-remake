@@ -1,127 +1,1680 @@
 {
-  "project": "江湖重绘",
-  "author": "Tom (tom19880509-star)",
-  "createdUTC": "2026-10-02T11:05:26.072910+00:00",
-  "scope": "Original independent modules only; no complete game runtime or original assets.",
+  "date": "2026-10-03",
+  "scope": "full browser game source, current new figures and resource preparation; original base and large public runtime assets fetched separately",
+  "validation": "independent dependency install, original export, music conversion, build and door access regression passed; no human saves used",
   "files": [
     {
-      "path": "navigation.js",
-      "localSHA256": "9c69dc7adb36b0f992d6efd62ce64738f151f228da02a15a8cade2d50f6c092d",
-      "releaseSHA256": "4a3a53e391c5aeb3136339d055286a743193d35a4d4a490a5803bd8dc286c06f",
-      "category": "original-independent-module",
-      "license": "Apache-2.0"
+      "path": ".gitignore",
+      "size": 317,
+      "sha256": "089d70f436e6940f6b9c9feb3fc2ca1eb5cffd84fb2785665e0d7d648e8f663b",
+      "git_sha": "3f3fcfffbf4800d0d9b49123e4dc271d59e7c4f8",
+      "binary": false
     },
     {
-      "path": "joystick.js",
-      "localSHA256": "c4750c828c17f2f48eb7453993852ab5207262166e876b0e94efb3d75d83675d",
-      "releaseSHA256": "93d722a8fa00fc435fb128c0f4b283dceb7d9d7db169bb30481a3a5ed6ddc940",
-      "category": "original-independent-module",
-      "license": "Apache-2.0"
+      "path": "CONTRIBUTING.md",
+      "size": 584,
+      "sha256": "450a34523bb466c7734fd9bcb37e58ead7d2fa016241dbc0b0198a53791fa3a1",
+      "git_sha": "da7a2227427161f1145e4ee206a79a87d9c1762f",
+      "binary": false
     },
     {
-      "path": "viewport.js",
-      "localSHA256": "fb51e7de2e262e3f407e9bca8c50203c274a7f51eff7b1549efbe25f8c11e5b0",
-      "releaseSHA256": "46b4dbfa9c944840d5bd8a633b877fb014486de437a2601eac3af5335985b7a5",
-      "category": "original-independent-module",
-      "license": "Apache-2.0"
+      "path": "LICENSE",
+      "size": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "git_sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "binary": false
     },
     {
-      "path": "occlusion.js",
-      "localSHA256": "bdc9767c43cdc390bb4c02306e77000e5930f4164530e2a23892a164baf19b13",
-      "releaseSHA256": "2eef1489fceee64912d2d903180938356238f48edcb9a9ca54e9c031cd2546f6",
-      "category": "original-independent-module",
-      "license": "Apache-2.0"
+      "path": "NOTICE",
+      "size": 915,
+      "sha256": "587b592ec76b6455cdf96f25955e2c399f543f76ef5edf677be4e4112d97ee2b",
+      "git_sha": "740af9037ee2814212a54e27b9977115d66afa2a",
+      "binary": false
     },
     {
-      "path": "orientation.js",
-      "localSHA256": "711469ed66499531a4ca9686e5cbf46af1436825286eebba21b17b6e5fe3eccd",
-      "releaseSHA256": "eaed94406831db55df7cf7b68a2329d10c40dae50ef1563d1b2f20e00ec5406a",
-      "category": "original-independent-module",
-      "license": "Apache-2.0"
+      "path": "README.md",
+      "size": 3091,
+      "sha256": "7faed60dd10932cf2f6e6d1b63db09bf4a779e1e397d4927e7e896928a9f9cbd",
+      "git_sha": "1e44a531213ea324a2bb1be2dc0d0cbee9ad398f",
+      "binary": false
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "size": 2479,
+      "sha256": "4a63b8b5effa5efdb2bdd4a041ce384672c072c14efb6649e827e4b03cafb167",
+      "git_sha": "86a70bed5ad34e5210b0b363c0de32390578860c",
+      "binary": false
     },
     {
       "path": "battle-preview-text.js",
-      "localSHA256": "642f808a1ec0ef1eed30d6a8e01c3aa404c681800420d4b01d4d04ec7534784e",
-      "releaseSHA256": "4c19c69bfe37d1afcaaf2adba841a5d5d8e3691645d4bb40943a7a71720593b7",
-      "category": "original-independent-module",
-      "license": "Apache-2.0"
-    },
-    {
-      "path": "rest-save.js",
-      "localSHA256": "5c068d05c805552951b3c88c325598715c9e0a4ce87f8b75e6b958673790c795",
-      "releaseSHA256": "2ba651c1197fcfdfdc70e9fba1c9f7fe8c07f29038a0e0f9dc6ef015b9c5f497",
-      "category": "original-independent-module",
-      "license": "Apache-2.0"
+      "size": 1405,
+      "sha256": "4c19c69bfe37d1afcaaf2adba841a5d5d8e3691645d4bb40943a7a71720593b7",
+      "git_sha": "12c18acfb807ea62e272491d005c16ade9b658c9",
+      "binary": false
     },
     {
       "path": "character-creation.js",
-      "localSHA256": "05dbcafc19adc09814a8ac7d98112ed99d2ea2be6e48f49c5886542829f44ac6",
-      "releaseSHA256": "ff97f42c75f9e80160ae1d833f1b57f3dc44b7b50cb66dab9cfefae231b1bec5",
-      "category": "original-independent-module",
-      "license": "Apache-2.0"
-    },
-    {
-      "path": "locomotion.js",
-      "localSHA256": "81aab1ba34a04ded3060772bd2ad9c088b628e5d6338d0fab80403a7c9de2c19",
-      "releaseSHA256": "1e3f174bc34090d1d4a0645b67766a8de482bf8cfdd226e8bd54e81eb8f88fd0",
-      "category": "original-independent-module",
-      "license": "Apache-2.0"
+      "size": 6698,
+      "sha256": "ff97f42c75f9e80160ae1d833f1b57f3dc44b7b50cb66dab9cfefae231b1bec5",
+      "git_sha": "43bb2f1bdb52489e4b5a928022d247d2129faf1f",
+      "binary": false
     },
     {
       "path": "combat-rules.js",
-      "localSHA256": "336b77a837a4b1d7087fed93f9b9f791820a26a6bb5521a4b6d2a8e04febc99e",
-      "releaseSHA256": "ccc9038664b4af7eadc3e9e1d4b2f7a4c5af1342b2f844c7115f599c4eaeb044",
-      "category": "original-independent-module",
-      "license": "Apache-2.0"
+      "size": 626,
+      "sha256": "ccc9038664b4af7eadc3e9e1d4b2f7a4c5af1342b2f844c7115f599c4eaeb044",
+      "git_sha": "3adb59b6a2239650968c0c076a0655854018b339",
+      "binary": false
     },
     {
       "path": "grade157.js",
-      "localSHA256": "07ffe70748781d308d78f3c1acdb25399da87aab96b4518b18cbe6b18dbae4f0",
-      "releaseSHA256": "2ef6197c4bec6eb9cf1acdf89c7f056884f3c0bb4eb26d9abd38514e32cdd89a",
-      "category": "original-independent-module",
-      "license": "Apache-2.0"
+      "size": 5278,
+      "sha256": "2ef6197c4bec6eb9cf1acdf89c7f056884f3c0bb4eb26d9abd38514e32cdd89a",
+      "git_sha": "04c7c6ed2657eac9d2d3160e6b698c461055dfcd",
+      "binary": false
     },
     {
       "path": "item-pixels.js",
-      "localSHA256": "683052307248a144686104f0b562d9b95136f28fa6f25497859dc0a8c992cbd1",
-      "releaseSHA256": "f337cc35e28dcb67af85b8ef66fe0dbb4c143529d2993a64c5f638eb551fe5af",
-      "category": "original-independent-module",
-      "license": "Apache-2.0"
+      "size": 11748,
+      "sha256": "f337cc35e28dcb67af85b8ef66fe0dbb4c143529d2993a64c5f638eb551fe5af",
+      "git_sha": "bbdac69e8a29aa3c6805344dd4f1a2f2c3dca650",
+      "binary": false
     },
     {
-      "path": "starter-equipment.js",
-      "localSHA256": "318c29606311eca34775ce57a9d74b61d7b4ccf23f82785050b3f5187c22a056",
-      "releaseSHA256": "f04e1f8bae405c06942af8223abeeaa8b186cd87865272b3a81c82559568e4d2",
-      "category": "original-independent-module",
-      "license": "Apache-2.0"
+      "path": "joystick.js",
+      "size": 4453,
+      "sha256": "93d722a8fa00fc435fb128c0f4b283dceb7d9d7db169bb30481a3a5ed6ddc940",
+      "git_sha": "b674437167a0a61ad28eac26f65e66e8564c47e2",
+      "binary": false
     },
     {
-      "path": "weapon-models.js",
-      "localSHA256": "362778d7716166d7c74b9d67758f8fa0d118e94965183a20ece2480dd7060f8c",
-      "releaseSHA256": "46f61b27d2d6a26bfa5377c219e55fa28f208f9675cb05653a6e7f874ec6b784",
-      "category": "original-independent-module",
-      "license": "Apache-2.0"
+      "path": "jy-art-remaster/remake/artfx-extension.lua",
+      "size": 27717,
+      "sha256": "5b0a82e0aea3cdb173b8477cf565c6178ef02d3de31c447ef0e5bf6222c9a4b5",
+      "git_sha": "d8c57ba50f9be550e2378fa4fc3193f82fb2e9f2",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-0.png",
+      "size": 170648,
+      "sha256": "ca996d8c89b0740f267471cc4eb1dde4695b53a98155f5cb141df16630edc76c",
+      "git_sha": "5917d4ecd0687fb25dc1f656e97ae0dc8506f7b3",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-1.png",
+      "size": 68982,
+      "sha256": "f37080bc93251ccec83866aba90343a801623f3a9c998a6df7f3d7bddc4aea04",
+      "git_sha": "d581652db8dee31d8d2a0510cf2d9b620c378bca",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-10.png",
+      "size": 183628,
+      "sha256": "677d9bce3723f215bcee4bc636709e6b9362ab59421a2083453a5dcb68bd346c",
+      "git_sha": "e7b30a8c9eb2e01193ef349c1ec3b1017c23bcf1",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-11.png",
+      "size": 63605,
+      "sha256": "c318f8bcc36c7d0a96d51ca4148c1e472b289289dabf864ef053a9562d17835c",
+      "git_sha": "d029bdf3b38dffeed97f43d1c8e1496eae5b2ec8",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-15.png",
+      "size": 129541,
+      "sha256": "2a2debe67b44ca1583d9989282e209818599cceba4cee8ea2e88761b0c7b30db",
+      "git_sha": "efae153e8f0e93e14e8940c4e1f81d438c90c1f2",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-2.png",
+      "size": 50815,
+      "sha256": "82563819d0341c9768dfca5d3640239dab0c64b80510ea7530586455e3c03209",
+      "git_sha": "e5de11426cc2233aa70c22c8eec15005be430e52",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-29.png",
+      "size": 127839,
+      "sha256": "2997383afb92f1769c4c9b08c195492a2539f32bc4b42f073945fdd07bf557e6",
+      "git_sha": "40f6c4b891fa6ac37fb861796dbc76bac97e515b",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-3.png",
+      "size": 60795,
+      "sha256": "78ce874c2d49acbd9b02529bdce7abcae7061318b5b0ac00873a566da33c84a2",
+      "git_sha": "3f712bb4e7611c26e651f9d9d5eb7a000eb4b2ab",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-31.png",
+      "size": 197172,
+      "sha256": "3b0048cb62a7fb2cea405f6461b1922be0159f98c82fc420ea32b68de2b5de37",
+      "git_sha": "5d1d0b62af11591823d8745cb0a7587314ded95e",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-32.png",
+      "size": 215039,
+      "sha256": "d4b808859da82b49741101c36e8ec2fa037f56693cb57faeeeca20b795310e2a",
+      "git_sha": "442eb7aec623827d1902090bf50cb9c68c33dbe3",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-33.png",
+      "size": 195854,
+      "sha256": "4590254f5f0abf383f3455a0890c4a84c3544fc430f4906f7255d065fbb52139",
+      "git_sha": "4aa45ab8f5e4a23cc43eaf7a125919477045f9d0",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-34.png",
+      "size": 178949,
+      "sha256": "e1271c836d113e4eab0dd679fd62a7eb0797d2bb58aaaf2570f6eca9e386337d",
+      "git_sha": "528a830ccc50c362695ad3e775ff176d59af9862",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-35.png",
+      "size": 49319,
+      "sha256": "8ab66bd95405f84992e68301adce9ca551b58efb6c90225f3e7789771aff45d8",
+      "git_sha": "4fa21fa9007442db8b37e7a12293156141b184e7",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-36.png",
+      "size": 67341,
+      "sha256": "22569ec4ffe6b1b332bbe14d2f3137af1e7923a5ec579e18ca5391f53f4ad631",
+      "git_sha": "24a2f6e1866514dfb333a7bf3090d99c48ba4aeb",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-37.png",
+      "size": 141325,
+      "sha256": "0e2e42b3495b0a6d2d9a9a547b5daa0723a88e421617e77e8e3b734e013bfef3",
+      "git_sha": "81996a7aef8d679aaecdeb799826dbe9856318ac",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-38.png",
+      "size": 46047,
+      "sha256": "721010c313b1ae1e60d1b114cfc066c4a1f1b393e4f6dccceed78cc683d66aaa",
+      "git_sha": "5756fc2c7097da1483999994fe4f08d31605a24b",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-4.png",
+      "size": 187107,
+      "sha256": "3a6599081de14f67221156ab2d083217df3918dd2f8023f4dbc3e35e79e5955f",
+      "git_sha": "763b11c2ebbb38f6a08e62bc7560a79953c38a3d",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-44.png",
+      "size": 197475,
+      "sha256": "e4d6447bed6c4407915b777051b81940c7a7221ab966802de2ff101323a6ed86",
+      "git_sha": "c14438a734168f8d7d27e3f6fb98e40f829b4747",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-5.png",
+      "size": 71656,
+      "sha256": "6e059fea90910eaffd3d3505ca885f851309ea4839d888d591406a3e0c7a0ac3",
+      "git_sha": "fe72deb6c04513da5492e4672a09af1d3021d516",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-50.png",
+      "size": 56539,
+      "sha256": "06c9c39526456ff0980fb72ba3ec85f8d2b832f7bed692c5ab6c6be696f8edfd",
+      "git_sha": "2e93206d1b9b5fdc81cb056717e865d511c19f6d",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-51.png",
+      "size": 136865,
+      "sha256": "dc48249c1626c942a45f16f6202a9f887ce2bee9edbe875e72c0a3093f978d7e",
+      "git_sha": "d338bf9df88575e8c72075ae0c74ed1024353445",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-53.png",
+      "size": 137113,
+      "sha256": "45650d0e6dbc0fe77f3e92c2530c70837e85ec1f196d437804af79af4faaffa1",
+      "git_sha": "2061652cff86630f535e547f65009644f390b36f",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-58.png",
+      "size": 60758,
+      "sha256": "0dbd73025f960573cae476ee5ded0821763af8f42fc7729575051f2b4b2cb8ed",
+      "git_sha": "2033c1aa9caa2c2165d6e32c9d6507e4bc4686fd",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-59.png",
+      "size": 178169,
+      "sha256": "c92daf0b749dc6c46ac631fd94a32e50f0c2892f433ff4204695861242c278c7",
+      "git_sha": "d656ca218550f90103cdd88fad284170bbe1aaef",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-61.png",
+      "size": 133546,
+      "sha256": "a247f5fd39c9975d8b6719803c68f78630299a1ddbec2996f4de3dd240428fc3",
+      "git_sha": "14985cbb558e8564e86f898c90fcb963363d7778",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-62.png",
+      "size": 62842,
+      "sha256": "72daa29d42e6db1f398196f090bf334654bdc326541cb7b45512da57280dbc7f",
+      "git_sha": "0cdcb5db46ec3fe7fe3c3f29bfb3f37b198f5cb4",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-64.png",
+      "size": 76265,
+      "sha256": "2d1058a7ac89657e0ad3afc29db870f21e0ae1ada8217dc3279c884d9b6a9c90",
+      "git_sha": "a9894f77896fe781833090a030bc6bcc69645775",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-67.png",
+      "size": 207754,
+      "sha256": "276bc45f7e256ef0539af03f5f5728a3338d417d68c3127f08891926d4facc61",
+      "git_sha": "bdf7faa0777db8de8ebdb61b00b8a45627f04d32",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-68.png",
+      "size": 116907,
+      "sha256": "69bfbbb97719dad0ab27cf83dd4588aae9e75f7d610e1d5df684db2bfebe162d",
+      "git_sha": "12c05b03e9d33fdb29a58905e01bdb1e0b65dde5",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-7.png",
+      "size": 137828,
+      "sha256": "15f08414977e6bedd0890d5869e100c8bc728d4dad311709f892fcbc319cb8b8",
+      "git_sha": "7c8b3261670c25f645d64694986635ac71dab4b3",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-70.png",
+      "size": 190809,
+      "sha256": "2206ba6fab7620d5fd9ef63848f16e096cbda3cb555d5235013ec3decc6773ad",
+      "git_sha": "ce0d90dbff9fad445ecb23a6b3b9e038b4a096ad",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-77.png",
+      "size": 91343,
+      "sha256": "933da1b2bc548cefdf96496e3ec560288d8d8584bc21ca9d032294f088319624",
+      "git_sha": "aebb9e7289fcce96c3adb31704abcd72ba12f81d",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-9.png",
+      "size": 186755,
+      "sha256": "7ec47cc623bcf11ab66b26511094f56098d27dbfa99596f621ee4c9b5411fc75",
+      "git_sha": "35405bc091218c828b291cedb09361fea577905e",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-93.png",
+      "size": 61811,
+      "sha256": "0be2d4433a96d5fa72e219ca8c5a701bcbeaf997f1a03dee5daa29b6f623de70",
+      "git_sha": "a9d5c2412cf283ba397c518aee06040a551ccdd1",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/clarity394-figure-99.png",
+      "size": 71470,
+      "sha256": "c0ce0224e272768f0bbef45b9eaf8f6d10c8f416225eef117214293ab0a62baa",
+      "git_sha": "41a2975b73c238bb85edcb02b85b4d9767335b0f",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/community-dirt-LICENSE.txt",
+      "size": 681,
+      "sha256": "f3fc80ad7bdd05eb542db781dd810348b55c78e3f1c91a604d2ad75b2a81bec3",
+      "git_sha": "fab55c4b4e000dc1ba798ec9f96b674fb6806d34",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/community-grass-LICENSE.txt",
+      "size": 780,
+      "sha256": "735955a86794cf9bc95bfa28c8198017a6b5d0e8be169a74b613821268406819",
+      "git_sha": "52c5c2ef65cfd5fdf0d3d8ba2b668a7a18253243",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/data/martial-balance.json",
+      "size": 43445,
+      "sha256": "ad1135c6f9a623c3232b2f4d851ebdeb0150ba3f3dbfea23a1cfe953d8f616ef",
+      "git_sha": "ca3ebcd2e705582f734b2c0a89d629b6ed4f2f23",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/data/martial-catalog.json",
+      "size": 231561,
+      "sha256": "2c2f1826d5df7877f4898f3748e3763ca9d1a6abd198469602cc00ddbbb095b6",
+      "git_sha": "674d6c6b2d9ac04e3b55d9ce3c3afb063a6be254",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/data/material-inn-atlas.json",
+      "size": 253603,
+      "sha256": "75112a63bb15a5782380b8b182427bff485d914d74a0c6852dfdb8f6fcd97774",
+      "git_sha": "d2b940a00740e07ab2654ed6992cd07bf0491daf",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/fonts/LICENSE-GPL-2.0.txt",
+      "size": 18092,
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+      "git_sha": "d159169d1050894d3ea3b98e1c965c4058208fe1",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/fonts/WenQuanYi-AUTHORS.txt",
+      "size": 32703,
+      "sha256": "19004996468f89a55f43a72d7ad9d3b82802819da38bc66c2bb8c5b1cd83e076",
+      "git_sha": "268837bc991fcd98c17ba029510281fdac324eb8",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/fonts/WenQuanYi-README.txt",
+      "size": 5618,
+      "sha256": "a342b6425f2645c00bb6a28334fd77de5357cd587a0ae57f6dc43b2f0a94416b",
+      "git_sha": "3c27099068efd369d199b4d889713a454a4a76ff",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/fonts/来源与授权.md",
+      "size": 1407,
+      "sha256": "b57c81014a0bdd20992497f5f51a959724781733186c653421bb3bd7bba45515",
+      "git_sha": "432c8164ba2efc96fe331b0e31988d2df5f2dc30",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/hero-gold-snake-v2.png",
+      "size": 1716345,
+      "sha256": "9f4c41ba71b5049b9d8330c33a25cb97698f12c31a52e71590cb30e08f33d9df",
+      "git_sha": "193702f7263f0e494c6e5fb3040de70a8dd597a7",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/hetaichong-combat-liangyi-four-directions-v1.png",
+      "size": 1848828,
+      "sha256": "83e2ff81ff735b976346aa413fc1e31c2eefb895ab5ff72204bc124551daeba9",
+      "git_sha": "50bdf5991a901e1bc6073c06eb7d63afa46f1897",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/jinhua-popo-combat-staff-four-directions-v2.png",
+      "size": 1826931,
+      "sha256": "bf4d13a249d4e1acce6e2eec8791bad9dd4258c30b40c50b69bc94c5221ba17f",
+      "git_sha": "06835b4635a0af1a4ddc6e50e8665af974b24759",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/jinhua-popo-portrait-v2.png",
+      "size": 1989846,
+      "sha256": "7c519966c628b956e9d79e7f59a35f930020369ae45b3cd9def67746b476d7af",
+      "git_sha": "ca8d06250f22821291a3daa81da432b66aa5cec3",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/jinhua-popo-scene-v2-transparent.png",
+      "size": 1623935,
+      "sha256": "645dafbca94e671b945dae09da9c2254ce14b24ec64bbcae4628bbe05533deae",
+      "git_sha": "4b817f29af652467c623ca25b2ea68df87910a75",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/music/CREDITS.txt",
+      "size": 400,
+      "sha256": "d08fe93c25217246efadc695a946c179386d48dd6cd9c942708b209094804373",
+      "git_sha": "c242ed4e244dc9c62973474f595db994f49c9dd6",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/music/GeneralUser-LICENSE.txt",
+      "size": 2317,
+      "sha256": "7b32efefdf95ce38a043799f0659853ddc00fbaa14d8c50f0aca16b9b8b405be",
+      "git_sha": "f8fc9c58d7574f2b0ce6cea86ff49192540bcc33",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/music/manifest.json",
+      "size": 11293,
+      "sha256": "612035b0aaa849c2f5ce4a8cf32fbdd13fe8999a3eb1882b9009f4b2a805c62d",
+      "git_sha": "073743db6291c4ae8162344ffcab327845743cbe",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/nanxian-scholar-scene-v2-purple.png",
+      "size": 2088065,
+      "sha256": "a0db68176f901fa7065c3edc53ac9992f620612be5e71e5e65d93c21fa210b6f",
+      "git_sha": "6cdda8a7cf843429a5707c860967ca2edb46ecca",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/qiuchuji-combat-seven-stars-four-directions-v1.png",
+      "size": 1736315,
+      "sha256": "0be9156ee6b0a5d80d8c80922084a0a0cfb805b7fc683df13f36e933be7be52e",
+      "git_sha": "f96c262073e4626554ed11f77cb4827cd2830903",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/qiuqianren-combat-iron-palm-four-directions-v2.png",
+      "size": 2252331,
+      "sha256": "6082e84233ee3d504aabac62763723ef1db739b858d3fd27d957043bb8fdf113",
+      "git_sha": "db058ad1bed976e6a986fa78ecac6a5ce9d996e6",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/qiuqianren-portrait-v2.png",
+      "size": 2565088,
+      "sha256": "7f348c1f3f51d7d60cbce7456dd7ef6bcbf01078fa5356392c3dfb3a10e61cb3",
+      "git_sha": "0ba59b7047a1e1fc54e3f4a8bbfeed20561f35f7",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/qiuqianren-seated-v2-transparent.png",
+      "size": 1125679,
+      "sha256": "f9984172c5d9441b31c0d782c8fd038ec3239dfd1b468b320b6eb728caa7f8d2",
+      "git_sha": "d4647ea67ac1a84720a45c86df20b0754bcab394",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/wangji-seated-v2-blue.png",
+      "size": 2013156,
+      "sha256": "45e5c413e785529903c550aa43371368bf1b4fbcfcb0d51bf82e79e0062b9d4a",
+      "git_sha": "518303b8ae0815390f9a8a6e27d70ad77451d057",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/weixiaobao-young-adult-four-directions-v6.png",
+      "size": 930081,
+      "sha256": "c69621f25b1c54df9bfdda89e1e32f39544cd0157d793883c45c19a22e13e4bd",
+      "git_sha": "f282cd3dbf476eacb96da4059ffee1e1a9b87882",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/xuanci-combat-thousand-palm-four-directions-v1.png",
+      "size": 2119377,
+      "sha256": "5c1ff58ba88347ac47f88b8d7805bc32d9c7c7b560318da2d27b6a2a0160c884",
+      "git_sha": "5b27f3dd9b61e040cea2847d1ba8b024f2dcd8cd",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/yang-handling-ne-claude-candidate-v3.png",
+      "size": 1819450,
+      "sha256": "5b5eec9b7a1179924a6fac3f209b43482b4b471357085c261744934e6d74d4b8",
+      "git_sha": "a57803e23a8bb3bdc1e12dc31f12dc0c0644f727",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/yue-laosan-combat-shears-four-directions-v4.png",
+      "size": 2020529,
+      "sha256": "d9efe08a8122f31e23cd31136ab907a1f4f18e816c0ef1f3cbdac81b3b95fd29",
+      "git_sha": "1418c6c74f5bd58926801e95b8e11aae3008c2be",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/assets/yuelaosan-strike-v5-four-directions.png",
+      "size": 679042,
+      "sha256": "997becf03b672a6023a653b40c42779aeb98f5137d55a4acfd3448bc857a33e5",
+      "git_sha": "a73e69c1ef6ae8f30d07bb7a9d2163443f03aba7",
+      "binary": true
+    },
+    {
+      "path": "jy-art-remaster/remake/audio-settings.js",
+      "size": 6191,
+      "sha256": "a52c6b07059ea5c228c737a113ef13f1ffeded322cbdd8a555724f88bc97662d",
+      "git_sha": "f37beb296861018d2daa2e73a36da5133b68564f",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/audio.js",
+      "size": 28069,
+      "sha256": "83a54baaf13cc88a55769252e98589c94675538483af7b3fe158eb1c002b6b90",
+      "git_sha": "3efdc164ac986dd45708add4fa60229ba361f7e1",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/backstory-extension.lua",
+      "size": 39935,
+      "sha256": "0144c1d28a81a6d4f0929850e163a18c50178ac82be8d0d47655e9a65055d5fe",
+      "git_sha": "899f55c6ee8216e73adba11cc0a402058065dd1b",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/balance-combat.lua",
+      "size": 37394,
+      "sha256": "3aacdca20905462cfa99b47d3877a356ed1ca92ecc8de58ff0aafb38ef3ad2c7",
+      "git_sha": "85209c723ab4cd9b42e72125e78a860ba8949b27",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/balance-core.lua",
+      "size": 12908,
+      "sha256": "00c6185176aa78b18cb1065b620fa2dfd3ba1659bbcff3f830979c3f76dcaa3c",
+      "git_sha": "c44425cda957cbab4679a593e147d2fa6bc932ce",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/balance-data.lua",
+      "size": 61057,
+      "sha256": "048faa626cc769507e7c5168eb4cd4ccc02f766b6040be6ad30f5846ac4ef76b",
+      "git_sha": "617f74420e845ce52c9292224a659ca01c355b59",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/battle-preview-text.js",
+      "size": 1249,
+      "sha256": "642f808a1ec0ef1eed30d6a8e01c3aa404c681800420d4b01d4d04ec7534784e",
+      "git_sha": "c9fbb63ecf7403ed4de7c77fbfdefd0b980fc439",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/beggar-walk.js",
+      "size": 1233,
+      "sha256": "0a6404373b7e8e3ce7bde80ad18a9612a92e753867a06cdfab4898fd3471b905",
+      "git_sha": "01f7a95ae60969109f772326ce03e4d4c4fabef7",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/bridge.lua",
+      "size": 50807,
+      "sha256": "8e56b9c6deb574b403b650f9d0619322b51d64c25b901bd586d0439e724334e4",
+      "git_sha": "88f9aff375631c344fff0aa3b30864510fdd8aaf",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/build.mjs",
+      "size": 10056,
+      "sha256": "b0bd77bf252a093ad338bc16146ef3f7d99ef72fb276c69554f09affe661938a",
+      "git_sha": "bf6f4fecd2a37d98173d14e1241bc7aaae556111",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/character-atlas.js",
+      "size": 3524,
+      "sha256": "70cf5fcb95d85f12f02654f164a9e04aa13396eb65633ff06527eb85f3c0d5b3",
+      "git_sha": "cad18d80b57ec9541b401878eeb51ce4b4665a8f",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/character-atlas.json",
+      "size": 131349,
+      "sha256": "30f1c505eb3850bf0c667bc5e7f39c521da9d9ad01b0260619d26874a8a905ed",
+      "git_sha": "aa651d45ad5ff5cb62007def2d67053bd6b30667",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/character-concepts.json",
+      "size": 1175,
+      "sha256": "62415fb5f8487695648f825eb6011fdcffa91601187da85efe2e31d57f1971aa",
+      "git_sha": "1526c326c42b5d1153474a66f0766c238f762417",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/character-creation.js",
+      "size": 6542,
+      "sha256": "05dbcafc19adc09814a8ac7d98112ed99d2ea2be6e48f49c5886542829f44ac6",
+      "git_sha": "3dfe576295189029e815e4f7952524c78fd109bd",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/coherent-walk.js",
+      "size": 2542,
+      "sha256": "6494d23c810ff98a209a2eeef9578b1cc3b069b3f369a9ecaf495a916cd9a3b2",
+      "git_sha": "9e94f082d8fd2a2b74c37d623040b0025ebb5074",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/collection-ui.js",
+      "size": 24166,
+      "sha256": "8a7d2d70549f0c3bd484e2d151679687814aa30f3eda05bf070926e4370fd556",
+      "git_sha": "a2d3ae0d4e81e3a1f9a8d0d0c52496d287f5c12e",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/combat-animation.js",
+      "size": 23520,
+      "sha256": "de555f473bf7dfa7d40fc4525b46ad6109d7a7e3c3e8a36853f49b6f5fa78754",
+      "git_sha": "17e6b9e807684cfba8851ef0a7e61a7b0b243a87",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/combat-art.js",
+      "size": 2708,
+      "sha256": "5324e67bfc9f5dc4251590b9a9de639d448dc5fac53fcf0ddd69e7d59f986ed0",
+      "git_sha": "a00d628fd7b5f990d28d526fa53903b68fac7915",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/combat-art.json",
+      "size": 15578,
+      "sha256": "1c47e11c5a0b366057270693500bca2a4d768f5768a6a264eade42766444db8c",
+      "git_sha": "97566d1c117be14378088ab88c3c9268ed963ee4",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/combat-extension.lua",
+      "size": 5710,
+      "sha256": "0075ada53c7ea0f7f3549e818fd786d7c42af85164653320f2e077ce517bf609",
+      "git_sha": "6017c8ee5e84559e3c495e9b5283758989cb5ee6",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/combat-preview.html",
+      "size": 3918,
+      "sha256": "71adb2621e8e5f9cfb4fdb7a6a6a0f05844cc9d1d196d70139a01caed1227bae",
+      "git_sha": "51a12cbf7a9ae2a08618f486bf58ccb3cabe894e",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/combat-preview.js",
+      "size": 9433,
+      "sha256": "3c61664bff2897c7d84a3ecbcccce8adb944a4f37303e04f3dce90488a8f87cd",
+      "git_sha": "98efb3360ada9fa5a0dc06b7718673d158533bb5",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/combat-rules.js",
+      "size": 470,
+      "sha256": "336b77a837a4b1d7087fed93f9b9f791820a26a6bb5521a4b6d2a8e04febc99e",
+      "git_sha": "494cd27d5e418a469f9249cab3d7319c2288b5ec",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/combat-vfx.js",
+      "size": 24314,
+      "sha256": "776f2cd0946e94b84c89af92faecac713c6c234fdd1f2775876893515485b441",
+      "git_sha": "766eba4fc02f495ff8386c97208d3c6fced7b745",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/combo-extension.lua",
+      "size": 13660,
+      "sha256": "d16f257278b099a5770bf1c9a6182a95605f3c73576110c773aa22fc53581f35",
+      "git_sha": "63f8d10d9dff6450659b794160ca606795e32506",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/condor-clues.css",
+      "size": 3325,
+      "sha256": "a36e1aef158e82c47c2ccb0e0edb425d58e62a8de634c76a4cbfe61ae7ad4a5b",
+      "git_sha": "9d159794f6986c3372fad7058f3a9e62bf8d92b6",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/condor-clues.js",
+      "size": 8309,
+      "sha256": "d16d7d96d63aadcd6c3704a1e60d455abc5763f72d321641916a47563c2d1f50",
+      "git_sha": "0188c665c346b637309825177845da4ce73d591b",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/content-report.json",
+      "size": 94809,
+      "sha256": "4178ff5e0f259f660f53f4a85466cb2ee369128e25f1c3591c4b7888b436e61b",
+      "git_sha": "0e5626429f938661cc39069e36248801d0635bcd",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/creation-extension.lua",
+      "size": 475,
+      "sha256": "b5cede3837e8f93ba6d15d1c1b8ff67a1595d768f569a474a83dcc95a345bbb4",
+      "git_sha": "7c724af85b2aa22026c98df025033026d433fffe",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/darkpath-extension.lua",
+      "size": 37972,
+      "sha256": "52a69ea79c3b1fda4815db85a2ce9a401e96c5d1a635946ca63e744869c64110",
+      "git_sha": "6733897b8f1d6ba20950a8222b2e85d663bc24e5",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/di-walk.js",
+      "size": 6545,
+      "sha256": "a74282f46bebe709167721706c49da0188bde5226f9e1f691ddfa440592c5f5c",
+      "git_sha": "acdab9f4b64ac842fa62df7f6bf8a36b35e59716",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/dialogue-remaster.json",
+      "size": 313031,
+      "sha256": "e457f6f23ee58fd243a97aa0e5d3dcff936c60b35085089ed824c1cc3b8d2562",
+      "git_sha": "fa44e795b0551f5cf924031f0f451040dede497a",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/dialogue.js",
+      "size": 462,
+      "sha256": "67ac4d5951fbfcc858576ad3956563060268cebb47b987a3f86def58e601c7a1",
+      "git_sha": "06c99c215c8f8ae41e9a012418c0233325d129ba",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/dispersal-extension.lua",
+      "size": 15258,
+      "sha256": "341910cc8d93002720b0ee6de11cd21cebc72a1855773ff3044601df034047d5",
+      "git_sha": "734dc13760a77f094f19c83d1fc7e154055d1a3e",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/echo-extension.lua",
+      "size": 37587,
+      "sha256": "89c71f0d29f438cb586d8cd3edb5b800d92794b9943d03f386606a7e8abe08ba",
+      "git_sha": "e6ccbf06a585213b0510273d58c873ca87ee8573",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/effects.js",
+      "size": 1573,
+      "sha256": "8ae902ee1a195de749648d97dfda8f0cf640979855fb88f7e0bf66d8cabbe833",
+      "git_sha": "716a2389fbcbbf116565be09442b57387baf4841",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/engine.js",
+      "size": 217416,
+      "sha256": "7b0e2b378089381cec58d97552a61a64ba9c332d7f6451a985312d65a21a4d5f",
+      "git_sha": "0a19290986cd7cb9fc44424b13a6d6043dd66e8b",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/equipment-art.js",
+      "size": 8849,
+      "sha256": "dee8fd3ede142bfd10d58bb9745208eedc01c5351e7fc28de6fc820fe110f237",
+      "git_sha": "1c2b58f07bbc6319b21c99367278c7372d5e26db",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/exploration-extension.lua",
+      "size": 24621,
+      "sha256": "76aff3a89725050225f9a7f9ad36f7088dea48522d10690795a93e0fdddb5a8a",
+      "git_sha": "29a3a7d2c55cf011166ace7330066520df3b630c",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/exploration.js",
+      "size": 1528,
+      "sha256": "b09b1d4ee6c9752392a5d97e4e14de6f72f2b09ae31929d79878d35f0b568ba7",
+      "git_sha": "5620138c79964c174b0f436a485b3d7af9384bbe",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/export_content.py",
+      "size": 6327,
+      "sha256": "bb7fb00a4fbd3ba65a583071312873976d28139161708777f5656efe7cf692f2",
+      "git_sha": "f0a02dab6f57d4e59863d9f4033f3e7abb13c169",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/expshare-extension.lua",
+      "size": 9684,
+      "sha256": "d8e64552807b8a6451a98655242a7f865edaccba695c0b316f937ab605be98cf",
+      "git_sha": "1ffb93918e0ce969c3daad52fa06c17ccf7fc591",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/feihu-clues.js",
+      "size": 7840,
+      "sha256": "a5ee1b7467d49ab902fc0ca4229bad95b9c1b973dffd13c6ece8b295c8dfc3e0",
+      "git_sha": "5392064809853c4d1211b1ef5ee27e95726a9b9a",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/flame-blade.js",
+      "size": 5040,
+      "sha256": "a2515c769cb93c3cdb0ac2baa08ee0c12593058a2b754a509ebc95ed0f5949de",
+      "git_sha": "9e087b55ea62200bbfb9d12fd52cfb0160456409",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/fonts.css",
+      "size": 750,
+      "sha256": "866181495786aa00db71e33cbc570adca9f055c328d628ef2e0ebbabaad3fc80",
+      "git_sha": "82eadd9e402c2d9255319744a726aa8d2f5948d2",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/furniture-interior.json",
+      "size": 7790,
+      "sha256": "1ca525953840c9b8a15bd0fb9c9ed1d46656cf0970876fd05147200f4864d8e5",
+      "git_sha": "dbc436929a4018e684264712711a84ff8cc6019f",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/furniture.js",
+      "size": 3665,
+      "sha256": "6129bad249f7821b83521792d6ce03bfb1eee72b9abccb9909c456897f08c580",
+      "git_sha": "8ce396ffbfdfb089d35b7c6d75951f1f5326658e",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/garden-extension.lua",
+      "size": 21571,
+      "sha256": "d8b3ac50f5a8c90fc42fb42903dc0fb8d2ec59d8b16e11ec860363cbbc58d614",
+      "git_sha": "f8f4cb6c3fe187ee0868f6125139d6c8eac8b266",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/grade157.css",
+      "size": 2002,
+      "sha256": "1b8314dca8f3b511eb8e8c9a207dabded2973ff97f1390458cf0aafbcadd11ad",
+      "git_sha": "ba43f7a9a2a971b505212c29ca487241a4c839ce",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/grade157.js",
+      "size": 5122,
+      "sha256": "07ffe70748781d308d78f3c1acdb25399da87aab96b4518b18cbe6b18dbae4f0",
+      "git_sha": "04acae3378a2eeb3b61070c0aa88df742bf8b777",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/growth-core.lua",
+      "size": 31809,
+      "sha256": "59eacd1e4b41549f2c4bd2fe0f6990af6948ef43e65c324bd6454926b7249a2d",
+      "git_sha": "19641c596a166e4dcbc70c8bac74b231412282cd",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/growth-extension.lua",
+      "size": 138728,
+      "sha256": "8df59fb63164037d33693fea0e6a9b39f8928abb518e29a068fe2ec33d790cea",
+      "git_sha": "634cb5b77e7beddef5fc288dfe8f7b204eb32fd8",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/growth.js",
+      "size": 12575,
+      "sha256": "aa3309644bf81b57fa3ced35c1d2edf8e66f013cd346cb81b8c3ad25e5eee7e5",
+      "git_sha": "9deb1f3343c2f2f7dfc490ed040df81bcc6957c1",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/hero-walk.js",
+      "size": 4878,
+      "sha256": "4c8b368754ab79dfde761e9e1f9fe8c3d02acfc655dd8c609666dc487d816a3e",
+      "git_sha": "3e612ebc166a84c65bc5536069a3c41a9c7c1056",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/hero-weapon-art.js",
+      "size": 1282,
+      "sha256": "30709ff7d62192066cdaebc4a43cbbdeab75e34e78034763886018d4c3b92333",
+      "git_sha": "47a2a8a54fa85aca6979adfdcc07dffc60e13603",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/hero-weapon-rig.js",
+      "size": 5377,
+      "sha256": "1ff02257d81bf7affa84e71af253883b27c05d4b394d8b4b8c28a81f7804e32b",
+      "git_sha": "76e34ed574bf6c4196592f246f0eb85f0ef334f3",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/homestead-extension.lua",
+      "size": 14720,
+      "sha256": "7e0fb977dd228ba6591d39a7e35f214d80c85fab04861f68c9953d410838d9a4",
+      "git_sha": "3e7ff630174cfb0c237d1a2de91a9365a06fbb23",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/homestead.js",
+      "size": 6195,
+      "sha256": "1f5f32680027edbcdaaee3eb798a938c55d62b1012e84d9f2d9a20ebef4fa8f8",
+      "git_sha": "0d3ec5448985cf5d6f0d8a19e97a6474c5736e23",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/index.html",
+      "size": 5117,
+      "sha256": "753102c095784f202962d0d8a322410e4f6e1d7beba8158c7a8e1f54f7ae17b9",
+      "git_sha": "c54248b576bd835335d81c03fe1002541a4c4330",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/inn-extension.lua",
+      "size": 8410,
+      "sha256": "18fbd75dd87809a6dae70c6c813f4bf05f6faf2d387e7d3f9034d4ead193f89c",
+      "git_sha": "ca9cb958263f620e5926bf32dea3a22dc55a5750",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/inn-noticeboard.js",
+      "size": 2751,
+      "sha256": "cc5f031b4891ff2da400ae71f38b2e981f75c687e99e9ca195f0b335c1551e0b",
+      "git_sha": "5e22b63f5aebe77511f8081ba23b02ad582e31f4",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/item-art.js",
+      "size": 18028,
+      "sha256": "6973737d929d37f37ae76da199678528ecb7540e490396acc220a07dc53c7984",
+      "git_sha": "b36bb147e46e888067f05812a661e93e3584aae6",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/item-catalog.js",
+      "size": 5435,
+      "sha256": "9eef94c7255f027846da48d468fef6c758b818317420b0845580eba0c5b1fba2",
+      "git_sha": "140b3ed26b279f7f0362944b26a980b0e440f21e",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/item-grade-data.json",
+      "size": 15703,
+      "sha256": "78ff3e4c8028bbb55ab3e87b520d4124f4f4be2da425405f261cb8dc62f44434",
+      "git_sha": "37a46b9e6cebda45428f95ee1df6b1de10cad660",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/item-pixels.js",
+      "size": 11592,
+      "sha256": "683052307248a144686104f0b562d9b95136f28fa6f25497859dc0a8c992cbd1",
+      "git_sha": "23dab4d7e6b13ac7e47f5327030205a9169aeabd",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/jinlun-walk.js",
+      "size": 1754,
+      "sha256": "cb203d75c9d06ac0b83763351d9cfa1bee611ab62d21b00a6c3131247017e07d",
+      "git_sha": "9e8a333f01c0d5fe5782b35b64ec662bf488c224",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/jiuyang-extension.lua",
+      "size": 17102,
+      "sha256": "e969286a88cc084888e873726148e4a530d41d61e9e50bdb23df973e3ff5b313",
+      "git_sha": "860b728f07f1b0bcdc8bd992f70faea575dd96e0",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/journey-extension.lua",
+      "size": 5558,
+      "sha256": "4b9e8a94f8809ec3662b00c78cbcae031421f4634b6fcaf99b978c90eb569cef",
+      "git_sha": "61482d934261fc19d6103ce942d57237b877dec2",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/journey.js",
+      "size": 17364,
+      "sha256": "ee26a981d67e177f23af8d22339d7775afa40aa59ef012f8be9d965cb4591b3d",
+      "git_sha": "4089a0df5b6425ca00621eaa030ea927ffcaaee5",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/joystick.js",
+      "size": 4297,
+      "sha256": "c4750c828c17f2f48eb7453993852ab5207262166e876b0e94efb3d75d83675d",
+      "git_sha": "0291ad8010d7dcecb902bfb21f34dabd1b3e6ec0",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/launch.py",
+      "size": 7586,
+      "sha256": "3d4a06faa2d52f5b37ff7e286483e4bff2cd8b17cd308f2a780e77eaf26a7855",
+      "git_sha": "27b42c31f5559dd07d40c51963294ded23563468",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/legacy-extension.lua",
+      "size": 27546,
+      "sha256": "c9d327c5a68b587c95b10fb05ebfdadf3091f78d7273e8a96b4daf6660f0df37",
+      "git_sha": "cbe6a237459935438dc33ac9f4ce665ca5781a0e",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/linghu-walk.js",
+      "size": 5664,
+      "sha256": "5e17af604e2906bb2cf65c2e0ddd7fb5992156b84ffeff30ca99833abbb4ff52",
+      "git_sha": "b90b85a3876e3a3484406c5e7d7428c79fd00e55",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/linping-extension.lua",
+      "size": 22035,
+      "sha256": "c1de9258cdb3e50f8e6da73441e7166b719a87b4f06bc70ef854aacfa27612db",
+      "git_sha": "eb6e81c68d0d00a3528d6870c759eb018a97049e",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/locomotion.js",
+      "size": 1593,
+      "sha256": "81aab1ba34a04ded3060772bd2ad9c088b628e5d6338d0fab80403a7c9de2c19",
+      "git_sha": "ef598f49cdc320f1291c7531987dc27fbbed80dc",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/luohan-extension.lua",
+      "size": 3244,
+      "sha256": "1cd2b9709f98417b51cea16bea5e99820cb759e2d2fba6506e57e12111099362",
+      "git_sha": "5fad689ebaa1443b5f427b3f5f02ac66bd332e32",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/marriage-extension.lua",
+      "size": 13529,
+      "sha256": "bf1bd3ac28cd1304987fe52aa4bcfd34cb02fd99468d959e6c2084da0c94eb7d",
+      "git_sha": "d0e38dcd895ae339b6aa9a8accb121b6c31a547a",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/martial-balance-data.json",
+      "size": 93585,
+      "sha256": "762f44d9e07b32667507c5aacedb0e69a7d5f61e6d84b1fee30daa5b694d4ec8",
+      "git_sha": "c81a0e7f59e9085e346a4effbbe62ad91730f375",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/martial-balance.js",
+      "size": 38674,
+      "sha256": "b8d323ca6da473645aaeaa40ec885954fd77c0c15eca8ce9fe91ff88f9ec5562",
+      "git_sha": "64b0823c7f00e380f4a092ef7e516f3bc1d7d69e",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/martial-catalog-data.json",
+      "size": 282257,
+      "sha256": "3f149d0c024513f9a6b568532c2f17b7583dc7f6b7f3a3d9af049225a9623418",
+      "git_sha": "e848e86e2d30fa3ba9c7b3b6d994d8d66bcbf1b9",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/martial-catalog.css",
+      "size": 6106,
+      "sha256": "4d4e55285a85267071aa2b74a2fe73604bf219f4a653dc8d362b0179533e6f71",
+      "git_sha": "2733bd77f2ebbc53b22bee0cdda61edbcc47fa59",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/martial-catalog.html",
+      "size": 2696,
+      "sha256": "def93cf7a3ec57cd11c442853176196426d8b0b5b43ed23bc691f955d5d0ad71",
+      "git_sha": "785804965912a3b7954fd0400b54b629a5586ce9",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/martial-catalog.js",
+      "size": 10003,
+      "sha256": "ec1e78e29e4de4ca709ac6004bed23b01e35090011ae7bd5fbe80ed72167ea44",
+      "git_sha": "d07c15560b5df99d517daf2ad09e662a770eb902",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/martial-identities.js",
+      "size": 9396,
+      "sha256": "134e0288eaea8c6f01db57736f381af1a19b982f953b2dec310a01f2961099e2",
+      "git_sha": "c0e5eee7c3fa8aa0a73927b3fded44ff80d17966",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/martial-lore-data.js",
+      "size": 107743,
+      "sha256": "49a84ede4bc4547ffc6f6d28c5bfe5a30e807f70cf739fdb62dfa1ddd01fb05f",
+      "git_sha": "4701ff95314146fe84d159eacf9de4f77c1d7b49",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/martial-lore.js",
+      "size": 2522,
+      "sha256": "5d8153a676903b2ba3b79603a80e4c0d5b5b65885e0944713d55b697b93260b8",
+      "git_sha": "720c0600452f5aca26cb1ed62e08a67f531e75f4",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/martial-schools.js",
+      "size": 1399,
+      "sha256": "15c9052effbf84a55e7bf7403b725eeb93840f0890bc63816e48fe62ffff4711",
+      "git_sha": "97f5bd96895bb0fa972ca4f8abce0fd16171cbbb",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/mastery-combat.lua",
+      "size": 9735,
+      "sha256": "581474f14848e94060e4043e708059de9abea663e0754b9e08dd58f29bb2043a",
+      "git_sha": "15670bc5415ad2d294e501f2967d2e360be11aa2",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/mastery-extension.lua",
+      "size": 28524,
+      "sha256": "e95782606da0d467f61f3d1b61ff0cc0f4caea2f09aa5cf834314c9e14900fcc",
+      "git_sha": "8b3c9228451e204186b7139788a1873c9dd41518",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/mastery.js",
+      "size": 3784,
+      "sha256": "d267fc65de4e1c4711dac386f775e0ab9dc2ea4cbb7d3110ead0c586f0843007",
+      "git_sha": "bdd16b8cf7503c3a1a826e00dd365446ce603a67",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/materials.js",
+      "size": 40154,
+      "sha256": "2ab6de4d1ae3e2a143c04fd16f4eb5ff6a4684bea753bae11502ba75de3e38f0",
+      "git_sha": "2892759cb5505cb4ef46abdd9c9901fe990079fb",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/mei-extension.lua",
+      "size": 5773,
+      "sha256": "697052f4fb57e1ffb66e291d565058d5be585a91bd6bac8e0c9062d37fc74b85",
+      "git_sha": "cfe6699ea2f885b991403a615b667bfd9f4be7cc",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/murong-extension.lua",
+      "size": 19978,
+      "sha256": "de0fabde9fa71871500eb3472cb048cb52c2d7b70b1485032f230e97b37f08f1",
+      "git_sha": "9dd8f5f83726a0a720b95cf043bb14531ff7f26c",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/navigation.js",
+      "size": 2025,
+      "sha256": "9c69dc7adb36b0f992d6efd62ce64738f151f228da02a15a8cade2d50f6c092d",
+      "git_sha": "b95f58084288b8f9bb061b012777029e3d72ed6b",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/npcinner-extension.lua",
+      "size": 38991,
+      "sha256": "4a51dffadcfa458241a2ba13319e0521863809b4b013e659edd7b399d7b928e1",
+      "git_sha": "24f408ee90af905a8a041439f4eabbe2210d3689",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/occlusion.js",
+      "size": 3254,
+      "sha256": "bdc9767c43cdc390bb4c02306e77000e5930f4164530e2a23892a164baf19b13",
+      "git_sha": "c3e28120bfae3a5f8006174b3de0cace43560431",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/offhand.js",
+      "size": 633,
+      "sha256": "a16575eb2960eb7fb354fbed56b5611e7c90c5ffe7077c28e642d72df5382d3f",
+      "git_sha": "19f1d3ef1d2535fcfc60f2dec01afebfc594f5f8",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/opening-extension.lua",
+      "size": 1628,
+      "sha256": "0fbeab3e5797356b42dc8fdc9ee24111ae0728435d50e7dc895293376902603f",
+      "git_sha": "cb24e31b450e169224d6e541b65089ccdece4232",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/orientation.js",
+      "size": 2601,
+      "sha256": "711469ed66499531a4ca9686e5cbf46af1436825286eebba21b17b6e5fe3eccd",
+      "git_sha": "11e4ac7a455616e09652f0a94bfefbe8b1767469",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/outfit-extension.lua",
+      "size": 33176,
+      "sha256": "a22ccac28fc6fb429048978fb331cf2fe58d73efae763c18d52a35c4bd14d26c",
+      "git_sha": "cfea1f4bc254537bacee27150579b9b03c3eec3f",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/outfit.js",
+      "size": 2546,
+      "sha256": "04c7b591206be5760d8cd97a8e1af7bedbd5121f66a6bf06057242472147a248",
+      "git_sha": "1fe46e90eb688d969aaa3c33d3d7243ac57eb2c7",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/pack_lua.py",
+      "size": 1695,
+      "sha256": "2293c38490da12cc670fe5368cb135a69c9edb89a5b946201131ba49082679aa",
+      "git_sha": "765dde308bed5fb2638707de99444634039d38a9",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/pack_music.py",
+      "size": 2039,
+      "sha256": "3a2440a48d74d676655bbab5dbc336a3d6036f8957b2e6b792180e7de5994596",
+      "git_sha": "475552b20c0de71162e2c1c40b97cd033be35a6a",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/package-lock.json",
+      "size": 15338,
+      "sha256": "120124a45141267c21ad33cde0e842c33c56fc309a58c8eea1d936b079e38585",
+      "git_sha": "c66b3e3581ce6b777a47c3b1b5ff87404aeacf47",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/package.json",
+      "size": 349,
+      "sha256": "f3c16a97927ef5359cf581680cdd1df02f02e5ae0537cfa3304aa3ddb58e920f",
+      "git_sha": "58c2d5cb9feaaa58f255fd5bfc05d7cd8a6d3000",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/party-ui.js",
+      "size": 54308,
+      "sha256": "b2da2ef67f44558e932630938cf3c9c4cab953b186abaee3b5f3d339b0918b53",
+      "git_sha": "3bea764f052afe1db98d627ac302dda49c5eabda",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/pastime-extension.lua",
+      "size": 14443,
+      "sha256": "549a7c36ed465a7954031eda943fcc3f547112010adb4748e420609c5c3f061e",
+      "git_sha": "1dba8775610d905716d46aee6f10f525c53c3134",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/pastime.js",
+      "size": 2651,
+      "sha256": "bc5c0bb12283dea30029a7355f7e7e1e1bb4fc75d369a24ec034e6f7bd2abea2",
+      "git_sha": "085dc5c88f2c91e00ecd2b2352a4e00a3e295f57",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/poisonmed-extension.lua",
+      "size": 25129,
+      "sha256": "66633e0f5b7ec15a46d68ab6b1e7a8550c4d9e3ea9bced73bf124fc532d1f19c",
+      "git_sha": "0c97676ffc037c9db11c54ee74c51a19de26053e",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/portable.js",
+      "size": 16079,
+      "sha256": "9865e98d714bbbdedf8cb677704c2cbf15426b48f8afe31a904a0caf41b8b181",
+      "git_sha": "9071a4f47a5f88f45d8be7b5d9508943240652f1",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/portraits.js",
+      "size": 11336,
+      "sha256": "5808d5e9259996d9aa7f6341eca530539595af12423a2a0504cdec2045bec5ff",
+      "git_sha": "410ae4369e8ffae0ae30431afeff3df91680df6a",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/practice-core.lua",
+      "size": 15374,
+      "sha256": "ebaccf4c807835c1dbbcfa850c72a5273519a8ffc9becdd63a836ca3f27803a7",
+      "git_sha": "5c710defc831bc735479c10f2b4a30bdb183fbae",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/practice-extension.lua",
+      "size": 12700,
+      "sha256": "99d41eb94b90a058a0d8832e5c83917c39c2f7bee7cd3024f8383ed3c08ffa01",
+      "git_sha": "d2f2245a373f654f505c1b8ea6ae168a9befd25a",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/provision-art.js",
+      "size": 4273,
+      "sha256": "50a0f69ffdd359e68e96ee57c2ff99d8caac2c0877028e05cb6f24b0420511aa",
+      "git_sha": "dadcbef792456c28e58267f9eea3b2276b034f6a",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/qiao-walk.js",
+      "size": 5116,
+      "sha256": "e2a50e48d443550b877d96937b0605c2b32095fc6f76793dd3c3846a1b2405ab",
+      "git_sha": "7b69f4199515900cd612215416a0091b5f0e59ee",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/rest-save-extension.lua",
+      "size": 5961,
+      "sha256": "e71ac59ca3a7602f63746b51aff823d75f64f890cc837d055b978ca65809d458",
+      "git_sha": "4c271cf23fed943f5af70d8a8976767c3aa01138",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/rest-save.js",
+      "size": 3936,
+      "sha256": "5c068d05c805552951b3c88c325598715c9e0a4ce87f8b75e6b958673790c795",
+      "git_sha": "f86d6e66ea984b3b5e192bc49a704593efb960c0",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/shediao-clues.js",
+      "size": 9763,
+      "sha256": "e04280573869227dfdf8ebdfea6a576025c37b6b9c9e41274ca91b1583f55fc4",
+      "git_sha": "ba782ccef07793015cf1877afe04ab5cf09e3a14",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/shi-walk.js",
+      "size": 4907,
+      "sha256": "384ff44dafbdb212ed4c59903005282613401de415b979c60a84f08c54a01c7f",
+      "git_sha": "81e5c43c4ec7a5f96a389a614e8b5bb4aaee6b42",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/signature-art.js",
+      "size": 14339,
+      "sha256": "950a853df698c5ba92f2cb7dded49b04a070cc8db2ff80480872269c2b278330",
+      "git_sha": "cfe6f864466252fe45efd2e6669b70323ec10bc7",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/signature-catalog.js",
+      "size": 8953,
+      "sha256": "8ce07bf4abf35930954a96ad454d2444af446dcc8bd5b577a740ec1e58fe8d2f",
+      "git_sha": "b4cb9bec521b9195f37eb6d5211aa4db188b3c76",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/signature-effects.js",
+      "size": 99740,
+      "sha256": "24b840a9d23de5ae45a779ceed49c244d425c949d911ce332ac3c4d0eb2ab00f",
+      "git_sha": "0cc0a36d32f153bb32995760d7b04c8a2f941709",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/signature-extension.lua",
+      "size": 5502,
+      "sha256": "79a0d185ca57b2dfb0f9fee42043a21d4b4f21726007706ffe4bc42bacc107f2",
+      "git_sha": "65d254504e43b3ab421f28f5624c5830381b6e62",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/signature-preview.html",
+      "size": 3792,
+      "sha256": "adde6640b50e387d5e7f28e6281ec50389b34adc1f497337de9796a01759f9a4",
+      "git_sha": "bf0e3758791eb633b33b949212f76c855af4eb12",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/signature-preview.js",
+      "size": 6479,
+      "sha256": "705577a9edc44c177fb6a467c629db5ca91955f6a46e43c9d539c0b263fe98db",
+      "git_sha": "7d5caf4feb777803bf3938d531df848501f5e610",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/sprite-frames.json",
+      "size": 68567,
+      "sha256": "d8d0015fea2ef40bdc0466f353e3d8de492807ef8ee56013e635c143e88ae03f",
+      "git_sha": "1ded8ad686dedc210229bffa21ce2a6d4c2117e3",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/sprites.js",
+      "size": 101356,
+      "sha256": "9df69f6673520038509bc152f99e3d7c1178e24aa293f626882f96ef97f66e4f",
+      "git_sha": "26dd46b4684d9a8b173f8a94979b32d66a8ecb12",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/starter-equipment.js",
+      "size": 2410,
+      "sha256": "318c29606311eca34775ce57a9d74b61d7b4ccf23f82785050b3f5187c22a056",
+      "git_sha": "922290749bd06c80894110671eae4a539e506701",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/starter-equipment.json",
+      "size": 1599,
+      "sha256": "0225b529f7cfa9b7d49cea2b671e9e47eaae39347a36d3032533acdab292011b",
+      "git_sha": "46e38fcca2b6a6bdecb169e46b3faf589f620d65",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/starter-equipment.lua",
+      "size": 2827,
+      "sha256": "5b1c010aab07ad826285efb1f53508e1412dd30f3732bff28f1d223a5add499f",
+      "git_sha": "a5d73df3c3ac53b0c0b9467c3c172d2f9b847c3c",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/style.css",
+      "size": 171948,
+      "sha256": "66487838a40d545c11665197aed161d3f139703419fb10b8490fd1c8bc0b1a6e",
+      "git_sha": "8a9f0b36bb4118978c137eb0b03e36bd53f5bad1",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/teaching-extension.lua",
+      "size": 8259,
+      "sha256": "7b126177ed21bae6d03175cafa8a856dc1cfbb3db6ed92c6b660c74e64757fc7",
+      "git_sha": "edc704f492b5af24a89854fd53093a01bf0e4289",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/teaching.js",
+      "size": 857,
+      "sha256": "606cb56451a6e9520dcb52bb4c29c83fd366e60ab23cfc733df6239132ef4a71",
+      "git_sha": "1bc6b4253d318fd9f09b1da5adf15a6fe1585624",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/tests/door-access.test.mjs",
+      "size": 1992,
+      "sha256": "191206ef5277cc28eb8b28df88d65aa7dcebd8e98cf7867f5ed059f0547120d0",
+      "git_sha": "0b6763e8a16f99557342541fb0f92f28360ee8c2",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/thrown-extension.lua",
+      "size": 15849,
+      "sha256": "ee500342ceb2c7d08abe3a9de277e00ad787f8bf5f9dc0e8d40cc29413a12e07",
+      "git_sha": "60142dda8d5fa76992c3ae1696bf1c218dcf8cb8",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/tianbo-extension.lua",
+      "size": 14454,
+      "sha256": "5aabf6822d918caf7a048b2aae0bc0bcb8797a56e09f53cdf3d1754c19702d75",
+      "git_sha": "186690a2c668480712266721194e6894e57bf400",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/tianlong-clues.js",
+      "size": 10006,
+      "sha256": "07abf95aeb5f0032924edb43e51c4c3615f10942f79d980e87ec7122dcf45cc6",
+      "git_sha": "56f3816806ccf58388acdf43349c3cfabd9ab055",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/toosimple-extension.lua",
+      "size": 13744,
+      "sha256": "e68be9086d855a3048e5c2cf218ca892b2aad1688737bae204b78f5f7be64644",
+      "git_sha": "c142f24cfa8fb5129be390f80000e368d36b6db8",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/ui-extension.lua",
+      "size": 45622,
+      "sha256": "6f3907cd57eb86d3adea5479a7ff23568a73a69a84561461040f31ae4cb78878",
+      "git_sha": "37768b511eac49c56b2da00f577136580c87034b",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/viewport.js",
+      "size": 3533,
+      "sha256": "fb51e7de2e262e3f407e9bca8c50203c274a7f51eff7b1549efbe25f8c11e5b0",
+      "git_sha": "e7143a5817029393531ef4c086e80b9b64cc9157",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/water.js",
+      "size": 4699,
+      "sha256": "636ad12be5cdbbc33a4a9685d0348c5faaf969eb937d0ae70b6ad4cf5c7872b3",
+      "git_sha": "2c148eb528d7bce0c4adc987330c327d125789d4",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/weapon-combat.lua",
+      "size": 12661,
+      "sha256": "7a9a0db3463bf8f39661b190a5cf07bb29c80541f2c97af564f21d88da3d2d87",
+      "git_sha": "663937a87ef05142bfaa9bc8361cf01ed1011d54",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/weapon-models.js",
+      "size": 8173,
+      "sha256": "362778d7716166d7c74b9d67758f8fa0d118e94965183a20ece2480dd7060f8c",
+      "git_sha": "f63496616c7dce13e0bcb31a4880fd6b780e5df2",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/winter.js",
+      "size": 6599,
+      "sha256": "2af1615e7294a83eb35e2ebe1db2ddfd38dcdb19d4ee0830d45be770ce01d286",
+      "git_sha": "386b00189f751e8841329266c6c3e09aa1f3c311",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/xiaoao-clues.js",
+      "size": 13692,
+      "sha256": "7d81170475c0724fa837e59921095249d631dc975bd03a55343113029a76fa54",
+      "git_sha": "3b1a91d7566c5a8a007319e0d697f50c162f7938",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/yijin-extension.lua",
+      "size": 16257,
+      "sha256": "676a3e2e70ebc1d1cb083d010c02b8c192463296755c326c31f60a2ff8e4f159",
+      "git_sha": "a688e671671e6bca1cbd94f9a91bdcb4bef47e4b",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/yitian-clues.js",
+      "size": 9730,
+      "sha256": "d387b9124c2281ee739a711afca93bac1d4c6a48db77cfcb9a11abfa9dbb1870",
+      "git_sha": "b5d4f31939e87b90841c07a88bb98aba9b98b78c",
+      "binary": false
+    },
+    {
+      "path": "jy-art-remaster/remake/zhou-extension.lua",
+      "size": 3754,
+      "sha256": "377387e742946ce432e5a09819fd5fbf7ec3aff67af6daf2c19b0d8c8e2132c8",
+      "git_sha": "d2dff14c6f929d127d126148a4a91987614d3017",
+      "binary": false
+    },
+    {
+      "path": "locomotion.js",
+      "size": 1749,
+      "sha256": "1e3f174bc34090d1d4a0645b67766a8de482bf8cfdd226e8bd54e81eb8f88fd0",
+      "git_sha": "77ddf447d5eb762e68c11938db831af99ed22c3f",
+      "binary": false
+    },
+    {
+      "path": "navigation.js",
+      "size": 2181,
+      "sha256": "4a3a53e391c5aeb3136339d055286a743193d35a4d4a490a5803bd8dc286c06f",
+      "git_sha": "3f8cfafd4e74c799efa54f8b0a6d07cf2c6e5ac5",
+      "binary": false
+    },
+    {
+      "path": "occlusion.js",
+      "size": 3410,
+      "sha256": "2eef1489fceee64912d2d903180938356238f48edcb9a9ca54e9c031cd2546f6",
+      "git_sha": "d76f007447b9d71cb4e3a52c0e490f9087864eb1",
+      "binary": false
     },
     {
       "path": "offhand.js",
-      "localSHA256": "a16575eb2960eb7fb354fbed56b5611e7c90c5ffe7077c28e642d72df5382d3f",
-      "releaseSHA256": "7b02b9138919702d7f4481416995ba83a65a59bd2de8a952c4b2431bbecf6da8",
-      "category": "original-independent-module",
-      "license": "Apache-2.0"
+      "size": 789,
+      "sha256": "7b02b9138919702d7f4481416995ba83a65a59bd2de8a952c4b2431bbecf6da8",
+      "git_sha": "3855ae407c02676b49eb026795c44c22855630c1",
+      "binary": false
     },
     {
-      "path": "tests/door-access.test.mjs",
-      "localSHA256": "31db3749cc5e718de10250c9720eb3067ba553441bb23139bbc11e5e76278895",
-      "releaseSHA256": "191206ef5277cc28eb8b28df88d65aa7dcebd8e98cf7867f5ed059f0547120d0",
-      "category": "existing-regression-test",
-      "license": "Apache-2.0"
+      "path": "orientation.js",
+      "size": 2757,
+      "sha256": "eaed94406831db55df7cf7b68a2329d10c40dae50ef1563d1b2f20e00ec5406a",
+      "git_sha": "9d820a0d82ca6fe3aae0913661b31559723c0052",
+      "binary": false
+    },
+    {
+      "path": "package.json",
+      "size": 365,
+      "sha256": "8374df6fb62392c7d95d93e72d5a7ee93b50caaef82a2bd42192ef9908fe9060",
+      "git_sha": "09c9cd7e3f9a6b33b8564be8e411aab7b64f0522",
+      "binary": false
+    },
+    {
+      "path": "prepare.py",
+      "size": 3671,
+      "sha256": "de09380de75a2ac4fb06c5be3b647caea2247751e0febe3777c1bb88c4cadc93",
+      "git_sha": "69375d0c33c32106f6a74f8fd313aa31366ef760",
+      "binary": false
+    },
+    {
+      "path": "requirements.txt",
+      "size": 15,
+      "sha256": "1954ca940740c612a12e7abf0a307b7394715964d66dc8037d503fdd5c1b6424",
+      "git_sha": "0f00984858108717cca519f581649778a1ebc9ed",
+      "binary": false
+    },
+    {
+      "path": "rest-save.js",
+      "size": 4092,
+      "sha256": "2ba651c1197fcfdfdc70e9fba1c9f7fe8c07f29038a0e0f9dc6ef015b9c5f497",
+      "git_sha": "238d8613142644b41b28d5cd69080f106d69efae",
+      "binary": false
+    },
+    {
+      "path": "runtime-assets.json",
+      "size": 252620,
+      "sha256": "b64413abece91a06e30499b39f8581ed5022606242e4093caf55238ff2c6e740",
+      "git_sha": "821c16351a03b89f0b337102bff84e8c8eb14bf8",
+      "binary": false
+    },
+    {
+      "path": "starter-equipment.js",
+      "size": 2566,
+      "sha256": "f04e1f8bae405c06942af8223abeeaa8b186cd87865272b3a81c82559568e4d2",
+      "git_sha": "a0d51c7b4c06e618c4d2449792c08c521ca617c3",
+      "binary": false
     },
     {
       "path": "starter-equipment.json",
-      "localSHA256": "0225b529f7cfa9b7d49cea2b671e9e47eaae39347a36d3032533acdab292011b",
-      "releaseSHA256": "0225b529f7cfa9b7d49cea2b671e9e47eaae39347a36d3032533acdab292011b",
-      "category": "original-independent-module-data",
-      "license": "Apache-2.0"
+      "size": 1599,
+      "sha256": "0225b529f7cfa9b7d49cea2b671e9e47eaae39347a36d3032533acdab292011b",
+      "git_sha": "46e38fcca2b6a6bdecb169e46b3faf589f620d65",
+      "binary": false
+    },
+    {
+      "path": "tests/door-access.test.mjs",
+      "size": 1992,
+      "sha256": "191206ef5277cc28eb8b28df88d65aa7dcebd8e98cf7867f5ed059f0547120d0",
+      "git_sha": "0b6763e8a16f99557342541fb0f92f28360ee8c2",
+      "binary": false
+    },
+    {
+      "path": "viewport.js",
+      "size": 3689,
+      "sha256": "46b4dbfa9c944840d5bd8a633b877fb014486de437a2601eac3af5335985b7a5",
+      "git_sha": "4c26701fef84659494a6d5e5e500eb0a97c46ed6",
+      "binary": false
+    },
+    {
+      "path": "weapon-models.js",
+      "size": 8329,
+      "sha256": "46f61b27d2d6a26bfa5377c219e55fa28f208f9675cb05653a6e7f874ec6b784",
+      "git_sha": "43e80ca2fe60f05af24fa6415a95f10106f37031",
+      "binary": false
     }
   ]
 }

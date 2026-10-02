@@ -1,0 +1,6 @@
+Original Jin Yong DOS MIDI scores: game01–game25, provided project reference.
+Sampled instrument playback: GeneralUser GS 2.0.3 by S. Christian Collins.
+https://schristiancollins.com/generaluser.php
+Rendered using FluidSynth 2.6.0; short reverb and loudness matching.
+These are original-score replays, not newly composed or live-recorded music.
+No Naruto or other game audio recording is included.

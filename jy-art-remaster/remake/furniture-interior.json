@@ -1,0 +1,562 @@
+[
+  [
+    1226,
+    {
+      "file": "furniture-interior-v1.png",
+      "index": 0,
+      "name": "wardrobe-left",
+      "occluder": true,
+      "parts": [
+        [
+          1226,
+          0,
+          0
+        ]
+      ],
+      "bounds": [
+        29,
+        60,
+        15,
+        62
+      ]
+    }
+  ],
+  [
+    1228,
+    {
+      "file": "furniture-interior-v1.png",
+      "index": 1,
+      "name": "wardrobe-right",
+      "occluder": true,
+      "parts": [
+        [
+          1228,
+          0,
+          0
+        ]
+      ],
+      "bounds": [
+        29,
+        60,
+        14,
+        62
+      ]
+    }
+  ],
+  [
+    1233,
+    {
+      "file": "furniture-interior-v1.png",
+      "index": 2,
+      "name": "cabinet-closed",
+      "occluder": false,
+      "parts": [
+        [
+          1233,
+          0,
+          0
+        ]
+      ],
+      "bounds": [
+        30,
+        33,
+        18,
+        36
+      ]
+    }
+  ],
+  [
+    1234,
+    {
+      "file": "furniture-interior-v1.png",
+      "index": 3,
+      "name": "cabinet-open",
+      "occluder": false,
+      "parts": [
+        [
+          1234,
+          0,
+          0
+        ]
+      ],
+      "bounds": [
+        34,
+        33,
+        18,
+        36
+      ]
+    }
+  ],
+  [
+    1288,
+    {
+      "file": "furniture-interior-v1.png",
+      "index": 4,
+      "name": "guest-canopy-bed",
+      "occluder": true,
+      "parts": [
+        [
+          1289,
+          -2,
+          -1
+        ],
+        [
+          1290,
+          -1,
+          -1
+        ],
+        [
+          1291,
+          0,
+          -1
+        ],
+        [
+          1286,
+          -2,
+          0
+        ],
+        [
+          1287,
+          -1,
+          0
+        ],
+        [
+          1288,
+          0,
+          0
+        ]
+      ],
+      "bounds": [
+        73,
+        67,
+        40,
+        72
+      ]
+    }
+  ],
+  [
+    1360,
+    {
+      "file": "furniture-interior-v1.png",
+      "index": 5,
+      "name": "brick-stove",
+      "occluder": false,
+      "parts": [
+        [
+          1359,
+          -1,
+          0
+        ],
+        [
+          1360,
+          0,
+          0
+        ]
+      ],
+      "bounds": [
+        53,
+        46,
+        34,
+        50
+      ]
+    }
+  ],
+  [
+    1255,
+    {
+      "file": "furniture-interior-v1.png",
+      "index": 6,
+      "name": "counter-front-left",
+      "occluder": false,
+      "parts": [
+        [
+          1255,
+          0,
+          0
+        ]
+      ],
+      "bounds": [
+        30,
+        40,
+        16,
+        41
+      ]
+    }
+  ],
+  [
+    1254,
+    {
+      "file": "furniture-interior-v1.png",
+      "index": 7,
+      "name": "counter-front-right",
+      "occluder": false,
+      "parts": [
+        [
+          1254,
+          0,
+          0
+        ]
+      ],
+      "bounds": [
+        29,
+        40,
+        14,
+        41
+      ]
+    }
+  ],
+  [
+    1270,
+    {
+      "file": "furniture-interior-v1.png",
+      "index": 8,
+      "name": "counter-open-back",
+      "occluder": false,
+      "parts": [
+        [
+          1270,
+          0,
+          0
+        ]
+      ],
+      "bounds": [
+        31,
+        42,
+        12,
+        41
+      ]
+    }
+  ],
+  [
+    1271,
+    {
+      "file": "furniture-interior-v1.png",
+      "index": 9,
+      "name": "counter-corner",
+      "occluder": false,
+      "parts": [
+        [
+          1271,
+          0,
+          0
+        ]
+      ],
+      "bounds": [
+        27,
+        40,
+        8,
+        41
+      ]
+    }
+  ],
+  [
+    1200,
+    {
+      "file": "furniture-interior-v1.png",
+      "index": 10,
+      "name": "bottle-shelf",
+      "occluder": true,
+      "parts": [
+        [
+          1200,
+          0,
+          0
+        ]
+      ],
+      "bounds": [
+        28,
+        54,
+        9,
+        58
+      ]
+    }
+  ],
+  [
+    1238,
+    {
+      "file": "furniture-interior-v1.png",
+      "index": 11,
+      "name": "low-bench",
+      "occluder": false,
+      "parts": [
+        [
+          1238,
+          0,
+          0
+        ]
+      ],
+      "bounds": [
+        24,
+        16,
+        14,
+        19
+      ]
+    }
+  ],
+  [
+    1244,
+    {
+      "file": "furniture-interior-v1.png",
+      "index": 12,
+      "name": "round-seat-back-chair",
+      "occluder": false,
+      "parts": [
+        [
+          1244,
+          0,
+          0
+        ]
+      ],
+      "bounds": [
+        18,
+        40,
+        8,
+        47
+      ]
+    }
+  ],
+  [
+    1249,
+    {
+      "file": "furniture-interior-v1.png",
+      "index": 13,
+      "name": "grain-sacks",
+      "occluder": false,
+      "parts": [
+        [
+          1249,
+          0,
+          0
+        ]
+      ],
+      "bounds": [
+        37,
+        31,
+        18,
+        32
+      ]
+    }
+  ],
+  [
+    1261,
+    {
+      "file": "furniture-interior-v1.png",
+      "index": 14,
+      "name": "earthen-jars",
+      "occluder": false,
+      "parts": [
+        [
+          1261,
+          0,
+          0
+        ]
+      ],
+      "bounds": [
+        28,
+        26,
+        12,
+        33
+      ]
+    }
+  ],
+  [
+    1319,
+    {
+      "file": "furniture-interior-v1.png",
+      "index": 15,
+      "name": "flowers-on-stand",
+      "occluder": false,
+      "parts": [
+        [
+          1319,
+          0,
+          0
+        ]
+      ],
+      "bounds": [
+        22,
+        35,
+        11,
+        38
+      ]
+    }
+  ],
+  [
+    1225,
+    {
+      "file": "furniture-interior-v1.png",
+      "index": 0,
+      "name": "wardrobe-left",
+      "occluder": true,
+      "parts": [
+        [
+          1225,
+          0,
+          0
+        ]
+      ],
+      "bounds": [
+        29,
+        60,
+        15,
+        62
+      ]
+    }
+  ],
+  [
+    1227,
+    {
+      "file": "furniture-interior-v1.png",
+      "index": 1,
+      "name": "wardrobe-right",
+      "occluder": true,
+      "parts": [
+        [
+          1227,
+          0,
+          0
+        ]
+      ],
+      "bounds": [
+        29,
+        60,
+        14,
+        62
+      ]
+    }
+  ],
+  [
+    1345,
+    {
+      "file": "temple-statues-v2.png",
+      "index": 1,
+      "name": "temple-stone-lion",
+      "scenes": [
+        63
+      ],
+      "occluder": true,
+      "parts": [
+        [
+          1346,
+          0,
+          -1
+        ],
+        [
+          1345,
+          0,
+          0
+        ]
+      ],
+      "bounds": [
+        42,
+        48,
+        11,
+        50
+      ]
+    }
+  ],
+  [
+    2461,
+    {
+      "file": "temple-statues-v2.png",
+      "index": 0,
+      "name": "tianning-gold-buddha",
+      "scenes": [
+        63
+      ],
+      "layer": 2,
+      "occluder": true,
+      "parts": [
+        [
+          2462,
+          -1,
+          0
+        ],
+        [
+          2461,
+          0,
+          0
+        ],
+        [
+          2463,
+          1,
+          0,
+          17
+        ]
+      ],
+      "bounds": [
+        61,
+        72,
+        31,
+        77
+      ]
+    }
+  ],
+  [
+    3407,
+    {
+      "file": "jinlun-seated-v3.png",
+      "index": 0,
+      "name": "jinlun-seated-event-composite",
+      "scenes": [
+        16
+      ],
+      "layer": 3,
+      "occluder": false,
+      "parts": [
+        [
+          3406,
+          -1,
+          0
+        ],
+        [
+          3407,
+          0,
+          0
+        ],
+        [
+          3408,
+          1,
+          0
+        ]
+      ],
+      "bounds": [
+        49,
+        55,
+        23,
+        52
+      ]
+    }
+  ],
+  [
+    3205,
+    {
+      "file": "shi-inn-table-v1.png",
+      "index": 0,
+      "name": "shi-inn-event-composite",
+      "scenes": [
+        40
+      ],
+      "layer": 3,
+      "occluder": false,
+      "parts": [
+        [
+          3205,
+          0,
+          0
+        ],
+        [
+          3206,
+          1,
+          0
+        ]
+      ],
+      "bounds": [
+        49,
+        53,
+        18,
+        49
+      ]
+    }
+  ]
+]

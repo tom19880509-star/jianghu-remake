@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover" />
+    <title>金庸群侠传 · 江湖重绘</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="style.css?v=66487838a40d" />
+  </head>
+  <body>
+    <main id="stage" aria-label="金庸群侠传游戏">
+      <canvas id="game" width="960" height="640" tabindex="0"
+        aria-label="江湖场景，点地面行走、点人物交谈；战斗点格预选后确认。也支持方向键和空格。"></canvas>
+      <div class="vignette"></div>
+      <div class="game-hud">
+        <span id="place">一梦入江湖</span>
+        <div class="hud-actions">
+          <button id="manual-battle" hidden title="当前动作结束后恢复手动；也可按空格或回车">接回手动</button>
+          <button id="hud-toggle" aria-expanded="false" aria-controls="hud-drawer">☰ 菜单</button>
+        </div>
+      </div>
+      <div id="party-rail" role="group" aria-label="队伍状态，点击查看装备与修炼" hidden></div>
+      <p id="route-notice" role="status" aria-live="polite" hidden></p>
+      <dialog id="hud-drawer" aria-labelledby="hud-title">
+        <div class="hud-heading"><h2 id="hud-title">江湖手札</h2><button id="hud-close" aria-label="收起菜单">收起 ×</button></div>
+      <nav aria-label="江湖手札功能">
+        <section class="menu-group"><h3>随身</h3><button id="training" disabled>人物 · 装备修炼</button><button data-field-action="1" disabled>行囊 · 使用物品</button><button data-field-action="2" disabled>同伴医疗</button><button data-field-action="3" disabled>同伴解毒</button></section>
+        <section class="menu-group"><h3>行路</h3><button id="atlas-map">江湖图</button><button id="nearby-menu" disabled>附近人物与出口</button></section>
+        <section class="menu-group"><h3>见闻</h3><button id="martial-atlas">武学图鉴</button><button id="item-atlas">百物图鉴</button></section>
+        <section class="menu-group"><h3>设置</h3><button id="portable" disabled>存档 / 画面</button><button id="music">配乐</button><button id="help">操作指引</button><button id="system" data-field-action="4" disabled>读取进度</button><button data-field-action="5" disabled>离开游戏</button></section>
+      </nav>
+        <div id="sound-settings"></div>
+        <section class="hud-journal" aria-label="江湖行程">
+          <h3>此行记事</h3>
+          <p id="objective">从小虾米的家出发，去客栈打听消息，寻找南贤。</p>
+          <div id="records">正在逐条试玩原版剧情、探索与战斗。</div>
+          <div id="bookcount">天书　〇 / 十四</div>
+          <div id="nearby"></div>
+          <div id="scene-note"></div>
+        </section>
+        <section class="hud-journal" aria-label="同行队友"><h3>同行之人</h3><div id="party"></div></section>
+        <footer><div>方向键 / WASD 行走 · 空格 / E 交谈 · Esc 返回</div><div id="save-status">在家或客栈歇宿后存档</div></footer>
+      </dialog>
+      <div id="loading">正在铺开江湖画卷…</div>
+    <div id="mobile" aria-label="触屏操作">
+      <div id="joystick" role="group" tabindex="0" aria-label="移动摇杆，拖动行走，松手停止">
+        <span class="stick-compass" aria-hidden="true">✥</span>
+        <span class="stick-knob" aria-hidden="true"></span>
+        <span id="stick-label" aria-hidden="true">行走</span>
+      </div>
+      <div class="touch-actions"><button id="touch-confirm" data-key="32">交互</button></div>
+    </div>
+    <div id="turn-order" hidden aria-label="出手顺序"></div>
+    <div id="battle-selection" hidden>
+      <span id="battle-selection-note">点选亮格后确认</span>
+      <button id="battle-confirm">确认位置</button><button id="battle-cancel">取消</button>
+    </div>
+    <section id="overlay" hidden role="dialog" aria-modal="true" aria-labelledby="dialog-title">
+      <div id="dialog">
+        <div id="portrait"></div>
+        <div class="dialog-copy">
+          <span id="dialog-kicker">江湖见闻</span>
+          <h2 id="dialog-title"></h2>
+          <p id="dialog-text" tabindex="0"></p>
+          <button id="echo-exit" hidden>离开试炼</button>
+          <span id="dialog-hint" hidden></span>
+          <div id="choices"></div>
+        </div>
+      </div>
+    </section>
+    </main>
+    <dialog id="martial-catalog-dialog" aria-label="江湖武典" style="padding:0;border:1px solid #a99d83;width:96vw;height:94dvh;max-width:1400px;background:#f4f0e4"><iframe title="江湖武典与武学对照" style="width:100%;height:100%;border:0"></iframe></dialog>
+    <script src="music.js"></script>
+    <script src="content.js"></script>
+    <script src="atlas.js"></script>
+    <script src="lua-files.js?v=2f78811f0a9b"></script>
+    <script src="bridge-data.js?v=16a63ec12ced"></script>
+    <script defer src="engine.bundle.js?v=eac73de3f200"></script>
+  </body>
+</html>

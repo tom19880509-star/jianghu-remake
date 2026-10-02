@@ -1,0 +1,8 @@
+Isometric ground tiles — rubberduck
+Source: https://opengameart.org/content/isometric-ground-tiles
+License: CC0 1.0, as published on the author asset page.
+https://creativecommons.org/publicdomain/zero/1.0/
+Native source: ground_tiles_sheets.zip / dirt_128x64.png
+File copied unchanged from references/community/ground-tiles/dirt_128x64.png.
+Runtime adaptation: native diamond sampling and warm palette blend inside the original earth mask.
+Current scope: Mingjiao hall (scene12, matching battle map3) and Wudu (scene37, battle map1 only when entered from scene37), within original earth color masks. Wudu retains source contact shadows. The original PNG bytes remain unchanged.

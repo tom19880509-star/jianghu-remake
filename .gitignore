@@ -7,3 +7,12 @@ output/
 qa/
 reviews/
 *.zip
+
+jy-dos-reference/
+__pycache__/
+jy-art-remaster/remake/content.js
+jy-art-remaster/remake/lua-files.js
+jy-art-remaster/remake/atlas.js
+jy-art-remaster/remake/music.js
+jy-art-remaster/remake/bridge-data.js
+jy-art-remaster/remake/*.bundle.js
