@@ -1,0 +1,127 @@
+{
+  "project": "江湖重绘",
+  "author": "Tom (tom19880509-star)",
+  "createdUTC": "2026-10-02T11:05:26.072910+00:00",
+  "scope": "Original independent modules only; no complete game runtime or original assets.",
+  "files": [
+    {
+      "path": "navigation.js",
+      "localSHA256": "9c69dc7adb36b0f992d6efd62ce64738f151f228da02a15a8cade2d50f6c092d",
+      "releaseSHA256": "4a3a53e391c5aeb3136339d055286a743193d35a4d4a490a5803bd8dc286c06f",
+      "category": "original-independent-module",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "joystick.js",
+      "localSHA256": "c4750c828c17f2f48eb7453993852ab5207262166e876b0e94efb3d75d83675d",
+      "releaseSHA256": "93d722a8fa00fc435fb128c0f4b283dceb7d9d7db169bb30481a3a5ed6ddc940",
+      "category": "original-independent-module",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "viewport.js",
+      "localSHA256": "fb51e7de2e262e3f407e9bca8c50203c274a7f51eff7b1549efbe25f8c11e5b0",
+      "releaseSHA256": "46b4dbfa9c944840d5bd8a633b877fb014486de437a2601eac3af5335985b7a5",
+      "category": "original-independent-module",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "occlusion.js",
+      "localSHA256": "bdc9767c43cdc390bb4c02306e77000e5930f4164530e2a23892a164baf19b13",
+      "releaseSHA256": "2eef1489fceee64912d2d903180938356238f48edcb9a9ca54e9c031cd2546f6",
+      "category": "original-independent-module",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "orientation.js",
+      "localSHA256": "711469ed66499531a4ca9686e5cbf46af1436825286eebba21b17b6e5fe3eccd",
+      "releaseSHA256": "eaed94406831db55df7cf7b68a2329d10c40dae50ef1563d1b2f20e00ec5406a",
+      "category": "original-independent-module",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "battle-preview-text.js",
+      "localSHA256": "642f808a1ec0ef1eed30d6a8e01c3aa404c681800420d4b01d4d04ec7534784e",
+      "releaseSHA256": "4c19c69bfe37d1afcaaf2adba841a5d5d8e3691645d4bb40943a7a71720593b7",
+      "category": "original-independent-module",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "rest-save.js",
+      "localSHA256": "5c068d05c805552951b3c88c325598715c9e0a4ce87f8b75e6b958673790c795",
+      "releaseSHA256": "2ba651c1197fcfdfdc70e9fba1c9f7fe8c07f29038a0e0f9dc6ef015b9c5f497",
+      "category": "original-independent-module",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "character-creation.js",
+      "localSHA256": "05dbcafc19adc09814a8ac7d98112ed99d2ea2be6e48f49c5886542829f44ac6",
+      "releaseSHA256": "ff97f42c75f9e80160ae1d833f1b57f3dc44b7b50cb66dab9cfefae231b1bec5",
+      "category": "original-independent-module",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "locomotion.js",
+      "localSHA256": "81aab1ba34a04ded3060772bd2ad9c088b628e5d6338d0fab80403a7c9de2c19",
+      "releaseSHA256": "1e3f174bc34090d1d4a0645b67766a8de482bf8cfdd226e8bd54e81eb8f88fd0",
+      "category": "original-independent-module",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "combat-rules.js",
+      "localSHA256": "336b77a837a4b1d7087fed93f9b9f791820a26a6bb5521a4b6d2a8e04febc99e",
+      "releaseSHA256": "ccc9038664b4af7eadc3e9e1d4b2f7a4c5af1342b2f844c7115f599c4eaeb044",
+      "category": "original-independent-module",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "grade157.js",
+      "localSHA256": "07ffe70748781d308d78f3c1acdb25399da87aab96b4518b18cbe6b18dbae4f0",
+      "releaseSHA256": "2ef6197c4bec6eb9cf1acdf89c7f056884f3c0bb4eb26d9abd38514e32cdd89a",
+      "category": "original-independent-module",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "item-pixels.js",
+      "localSHA256": "683052307248a144686104f0b562d9b95136f28fa6f25497859dc0a8c992cbd1",
+      "releaseSHA256": "f337cc35e28dcb67af85b8ef66fe0dbb4c143529d2993a64c5f638eb551fe5af",
+      "category": "original-independent-module",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "starter-equipment.js",
+      "localSHA256": "318c29606311eca34775ce57a9d74b61d7b4ccf23f82785050b3f5187c22a056",
+      "releaseSHA256": "f04e1f8bae405c06942af8223abeeaa8b186cd87865272b3a81c82559568e4d2",
+      "category": "original-independent-module",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "weapon-models.js",
+      "localSHA256": "362778d7716166d7c74b9d67758f8fa0d118e94965183a20ece2480dd7060f8c",
+      "releaseSHA256": "46f61b27d2d6a26bfa5377c219e55fa28f208f9675cb05653a6e7f874ec6b784",
+      "category": "original-independent-module",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "offhand.js",
+      "localSHA256": "a16575eb2960eb7fb354fbed56b5611e7c90c5ffe7077c28e642d72df5382d3f",
+      "releaseSHA256": "7b02b9138919702d7f4481416995ba83a65a59bd2de8a952c4b2431bbecf6da8",
+      "category": "original-independent-module",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "tests/door-access.test.mjs",
+      "localSHA256": "31db3749cc5e718de10250c9720eb3067ba553441bb23139bbc11e5e76278895",
+      "releaseSHA256": "191206ef5277cc28eb8b28df88d65aa7dcebd8e98cf7867f5ed059f0547120d0",
+      "category": "existing-regression-test",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "starter-equipment.json",
+      "localSHA256": "0225b529f7cfa9b7d49cea2b671e9e47eaae39347a36d3032533acdab292011b",
+      "releaseSHA256": "0225b529f7cfa9b7d49cea2b671e9e47eaae39347a36d3032533acdab292011b",
+      "category": "original-independent-module-data",
+      "license": "Apache-2.0"
+    }
+  ]
+}

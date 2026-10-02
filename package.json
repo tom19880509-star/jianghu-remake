@@ -1,0 +1,15 @@
+{
+  "name": "jianghu-remake-modules",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Original independent modules from Tom’s Jianghu browser-game remake",
+  "type": "module",
+  "license": "Apache-2.0",
+  "author": "Tom (tom19880509-star)",
+  "scripts": {
+    "test": "node tests/door-access.test.mjs"
+  },
+  "engines": {
+    "node": ">=20.10.0"
+  }
+}
